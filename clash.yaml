@@ -71,1317 +71,21 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
-- name: 127.0.0.1_OpenAI
-  network: ws
-  port: 80
-  server: 104.16.103.250
-  servername: pari.parinazz.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 1f431db3-1918-4e7b-a855-c93485e11694
-  ws-opts:
-    headers:
-      Host: pari.parinazz.dpdns.org
-    path: /?ed=2560
-- name: 160.250.65.132_OpenAI
-  port: 34045
-  reality-opts:
-    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-    short-id: e8ab71d0
-  server: 160.250.65.132
-  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-- name: 54.200.244.93_OpenAI
-  network: ws
-  port: 80
-  server: 172.67.9.145
-  servername: kssepa.sabzipolobamahi.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
-  ws-opts:
-    headers:
-      Host: kssepa.sabzipolobamahi.dpdns.org
-    path: /?ed=2560
-- name: CA_OpenAI
-  network: ws
-  port: 443
-  server: dnschecker.org
-  servername: re1.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: re1.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: DE
-  network: ws
-  port: 80
-  server: 172.66.132.44
-  servername: abcd.taraneh.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 5459f68e-d914-4b31-93a3-ecdf638b7a5b
-  ws-opts:
-    headers:
-      Host: abcd.taraneh.dpdns.org
-    path: /?ed=2560
-- name: DE_OpenAI1
-  network: ws
-  port: 80
-  server: 104.21.113.169
-  servername: pari.parinazz.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 1f431db3-1918-4e7b-a855-c93485e11694
-  ws-opts:
-    headers:
-      Host: pari.parinazz.dpdns.org
-    path: /?ed=2560
-- name: DE_OpenAI2
-  network: ws
-  port: 80
-  server: 172.66.210.188
-  servername: a1.ghormehsabzi.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: e6236ebc-7334-4bed-977f-0c20bcdfcc00
-  ws-opts:
-    headers:
-      Host: a1.ghormehsabzi.dpdns.org
-    path: /?ed=2560
-- name: DE_OpenAI3
-  network: ws
-  port: 80
-  server: 104.24.56.187
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: e6236ebc-7334-4bed-977f-0c20bcdfcc00
-  ws-opts:
-    headers:
-      Host: a1.ghormehsabzi.dpdns.org
-    path: /?ed=2560
-- grpc-opts:
-    grpc-service-name: Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs
-  name: DE_OpenAI4
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: Ih0HZjPvGjLGORRBc7ivhazmBTlYILGMe9WHO17WNWc
-    short-id: 71a2
-  server: 185.235.241.208
-  servername: maps.google.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: fce886cf-9623-4ba0-9599-edba06c7877c
-- name: DE_OpenAI5
-  network: ws
-  port: 8443
-  server: 5.255.120.214
-  servername: vkk.wxgqlfx.cn
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 2dc696d0-2c4d-437e-9187-5a78584f0abb
-  ws-opts:
-    headers:
-      Host: vkk.wxgqlfx.cn
-    path: /TG@wxgqlfx?ed=2560
-- name: DE_OpenAI6
-  network: ws
-  port: 80
-  server: 172.67.53.233
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 4179c595-08ca-45cd-b555-91b6f1faeadc
-  ws-opts:
-    headers:
-      Host: di.dibdibini.dpdns.org
-    path: /BaRAyeIran?ed=2560
-- name: FI
-  network: ws
-  port: 80
-  server: 104.16.101.143
-  servername: spx.lindak.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: db9d419e-3094-4942-9313-d39afd3dd163
-  ws-opts:
-    headers:
-      Host: spx.lindak.dpdns.org
-    path: /?ed=2560
-- name: FI_OpenAI1
-  network: ws
-  port: 80
-  server: 104.17.104.45
-  skip-cert-verify: false
-  type: vless
-  uuid: 9d6315f7-f272-4806-97c8-5fdaafad391e
-  ws-opts:
-    headers:
-      Host: lot.sosant.dpdns.org
-    path: /?ed=2560
-- name: FI_OpenAI2
-  network: ws
-  port: 80
-  server: 172.67.193.209
-  servername: tannaz.juveitaly.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: dfdf1c0a-5e52-4746-88bd-19d4e4ac7853
-  ws-opts:
-    headers:
-      Host: tannaz.juveitaly.dpdns.org
-    path: /?ed=2560
-- name: FR1
-  network: ws
-  port: 8080
-  server: 172.67.73.163
-  servername: 0q.rOk8rzMpV3.ZULair.Org.
-  tls: false
-  type: vless
-  uuid: b6efaf7e-6099-457d-b4a2-b01dde469533
-  ws-opts:
-    headers:
-      Host: 0q.rOk8rzMpV3.ZULair.Org.
-    path: /?ed=2048
-- name: FR2
-  network: ws
-  port: 8080
-  server: 104.26.15.85
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: 4ea841c1-0dc1-4563-9f47-deba8407cb4e
-  ws-opts:
-    headers:
-      Host: J9.oDOtZrHUoO.ZuLAIR.ORg.
-    path: /?ed=2048
-- cipher: aes-256-cfb
-  name: GB_OpenAI1
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 62.100.205.48
-  type: ss
-- cipher: aes-256-cfb
-  name: GB_OpenAI2
-  obfs: plain
-  obfs-param: ''
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  protocol: origin
-  protocol-param: ''
-  server: 62.100.205.48
-  type: ssr
-- name: HK
+- name: 104.168.76.144_OpenAI
   network: ws
   port: 8880
-  server: 45.159.219.29
-  skip-cert-verify: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /
-- name: JP1
-  network: ws
-  port: 8880
-  server: 89.116.180.213
-  skip-cert-verify: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /
-- name: JP2
-  network: ws
-  port: 8880
-  server: 45.85.118.63
-  servername: jp.laoyoutiao.link
-  skip-cert-verify: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /Telegram🇨🇳
-- name: JP3
-  network: ws
-  port: 8880
-  server: 185.162.230.213
-  skip-cert-verify: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /
-- name: JP4
-  network: ws
-  port: 8880
-  server: 45.67.215.213
-  skip-cert-verify: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /
-- name: JP_OpenAI1
-  network: ws
-  port: 8880
-  server: 188.42.88.247
-  servername: ex.sue.x10.mx
-  skip-cert-verify: false
-  type: vless
-  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-  ws-opts:
-    headers:
-      Host: ex.sue.x10.mx
-    path: /Telegram🇨🇳
-- name: JP_OpenAI10
-  network: ws
-  port: 2096
-  server: 27.50.49.61
-  servername: edmp.aimercc.filegear-sg.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edmp.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: JP_OpenAI11
-  network: ws
-  port: 8880
-  server: 104.26.1.212
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 6ec52bc7-fcd7-4841-ab69-70d6e03a6eda
-  ws-opts:
-    headers:
-      Host: www.speedtest.net.zula.ir.cfp1.a2hdhjdxjbxjsjdjd.ddns-ip.nEt.
-    path: /
-- name: JP_OpenAI12
-  network: ws
-  port: 2082
-  server: 104.18.15.19
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 12b6fb4e-91a5-4b9c-b23f-aaf7917488fd
-  ws-opts:
-    headers:
-      Host: 0108.9ro3grfw.workers.dev
-    path: /?ed=2560
-- name: JP_OpenAI13
-  network: ws
-  port: 443
-  server: 172.64.33.110
-  servername: edmp.aimercc.filegear-sg.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edmp.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: JP_OpenAI14
-  network: ws
-  port: 443
-  server: theo.ns.cloudflare.com
-  servername: edmp.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edmp.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: JP_OpenAI15
-  network: ws
-  port: 443
-  server: 173.245.59.110
-  servername: edmp.aimercc.filegear-sg.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edmp.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: JP_OpenAI16
-  network: ws
-  port: 2053
-  server: 108.165.152.104
-  servername: edmp.aimercc.filegear-sg.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edmp.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: JP_OpenAI2
-  network: ws
-  port: 8880
-  server: 185.176.24.247
-  servername: ex.sue.x10.mx
-  skip-cert-verify: true
-  type: vless
-  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-  ws-opts:
-    headers:
-      Host: ex.sue.x10.mx
-    path: /Telegram🇨🇳
-- name: JP_OpenAI3
-  network: ws
-  port: 443
-  server: 172.64.35.168
-  servername: edmp.aimercc.filegear-sg.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edmp.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: JP_OpenAI4
-  network: ws
-  port: 80
-  server: 141.193.213.223
-  servername: cs.laoyoutiao.link
-  skip-cert-verify: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: cs.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-- name: JP_OpenAI5
-  network: ws
-  port: 8880
-  server: 140.99.233.247
-  servername: ex.sue.x10.mx
-  skip-cert-verify: false
-  type: vless
-  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-  ws-opts:
-    headers:
-      Host: ex.sue.x10.mx
-    path: /Telegram🇨🇳
-- name: JP_OpenAI6
-  network: ws
-  port: 443
-  server: 18.183.158.211
-  servername: edmp.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edmp.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: JP_OpenAI7
-  network: ws
-  port: 443
-  server: lynn.ns.cloudflare.com
-  servername: edmp.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edmp.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: JP_OpenAI8
-  network: ws
-  port: 443
-  server: 173.245.59.201
-  servername: edmp.aimercc.filegear-sg.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edmp.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: JP_OpenAI9
-  network: ws
-  port: 443
-  server: 27.50.49.207
-  servername: edmp.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edmp.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: KR1
-  network: ws
-  port: 443
-  server: 135.84.76.143
-  servername: re1.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: re1.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: KR2
-  network: ws
-  port: 443
-  server: 104.19.150.163
-  servername: re1.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: re1.ylks0033.dpdns.org
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  name: KR_OpenAI
-  password: qwerREWQ@@
-  port: 4652
-  server: 218.237.185.230
-  type: ss
-- name: NL_OpenAI1
-  network: ws
-  port: 80
-  server: 104.16.181.110
-  servername: pari.parinazz.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 1f431db3-1918-4e7b-a855-c93485e11694
-  ws-opts:
-    headers:
-      Host: pari.parinazz.dpdns.org
-    path: /?ed=2560
-- name: NL_OpenAI2
-  network: ws
-  port: 80
-  server: 104.21.114.48
-  servername: pari.parinazz.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 1f431db3-1918-4e7b-a855-c93485e11694
-  ws-opts:
-    headers:
-      Host: pari.parinazz.dpdns.org
-    path: /?ed=2560
-- name: NL_OpenAI3
-  network: ws
-  port: 8080
-  server: 141.101.121.243
-  skip-cert-verify: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: 1750293123492.china.baidu.bilibili.china.aeko.cn
-    path: /?ed=2048
-- name: NL_OpenAI4
-  network: ws
-  port: 8080
-  server: 141.101.120.38
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: 1750293123492.china.baidu.bilibili.china.aeko.cn
-    path: /?ed=2048
-- name: NL_OpenAI5
-  network: ws
-  port: 8080
-  server: 141.101.121.108
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: 1750293123492.china.baidu.bilibili.china.aeko.cn
-    path: /?ed=2048
-- name: NL_OpenAI6
-  network: ws
-  port: 80
-  server: 104.16.1.106
-  servername: delam.ahaysiahzangi.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: f78ce1bb-0fa6-4ef4-b4c9-b91014a7055d
-  ws-opts:
-    headers:
-      Host: delam.ahaysiahzangi.dpdns.org
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: RU1
-  password: dongtaiwang.com
-  port: 30033
-  server: 46.17.41.217
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- client-fingerprint: chrome
-  name: RU2
-  password: dongtaiwang.com
-  port: 30033
-  server: 46.29.163.171
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- name: SG_OpenAI
-  network: ws
-  port: 8880
-  server: 156.238.18.170
-  skip-cert-verify: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: sg.laoyoutiao.link
-    path: /Telegram@WangCai2/?ed=2048
-- name: US1
-  network: ws
-  port: 80
-  server: 172.67.6.114
-  servername: havvas.shohreh.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 941d092e-8313-452a-ba21-c9995dcba79d
-  ws-opts:
-    headers:
-      Host: havvas.shohreh.dpdns.org
-    path: /?ed=2560
-- name: US2
-  network: ws
-  port: 80
-  server: 104.24.31.150
-  servername: lot.sosant.dpdns.org
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: 9d6315f7-f272-4806-97c8-5fdaafad391e
-  ws-opts:
-    headers:
-      Host: lot.sosant.dpdns.org
-    path: /?ed=2560
-- name: US3
-  network: ws
-  port: 80
-  server: 104.18.109.147
-  servername: www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: c29d39bd-92a4-45db-bb61-56013998617c
-  ws-opts:
-    headers:
-      Host: microsoft.com.bing.com.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.kuyuesaspeedtest.netrag.com.l7vl8.com.s019857.com.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xv98.ip-ddns.com.
-    path: /
-- name: US4
-  network: ws
-  port: 80
-  server: 104.16.104.151
-  servername: pari.parinazz.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 1f431db3-1918-4e7b-a855-c93485e11694
-  ws-opts:
-    headers:
-      Host: pari.parinazz.dpdns.org
-    path: /?ed=2560
-- name: US5
-  network: ws
-  port: 80
-  server: 172.67.10.124
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: e6236ebc-7334-4bed-977f-0c20bcdfcc00
-  ws-opts:
-    headers:
-      Host: a1.ghormehsabzi.dpdns.org
-    path: /?ed=2580
-- name: US6
-  network: ws
-  port: 80
-  server: 172.67.128.105
-  skip-cert-verify: false
-  type: vless
-  uuid: 4179c595-08ca-45cd-b555-91b6f1faeadc
-  ws-opts:
-    headers:
-      Host: di.dibdibini.dpdns.org
-    path: /?ed=2560
-- name: US7
-  network: ws
-  port: 80
-  server: 172.67.21.2
-  servername: delam.ahaysiahzangi.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: f78ce1bb-0fa6-4ef4-b4c9-b91014a7055d
-  ws-opts:
-    headers:
-      Host: delam.ahaysiahzangi.dpdns.org
-    path: /?ed=2560
-- name: US8
-  network: ws
-  port: 8880
-  server: 156.238.18.76
-  tls: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: yd.laoyoutiao.link
-    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
-- name: US9
-  password: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
-  port: 8443
-  server: 2e7bc2e9-sw04g0-swsmkh-1s0a7.hy2.gotochinatown.net
-  sni: 2e7bc2e9-sw04g0-swsmkh-1s0a7.hy2.gotochinatown.net
-  type: hysteria2
-- name: US_OpenAI1
-  network: ws
-  port: 80
-  server: 104.18.30.65
-  servername: lot.sosant.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 9d6315f7-f272-4806-97c8-5fdaafad391e
-  ws-opts:
-    headers:
-      Host: lot.sosant.dpdns.org
-    path: /?ed=2560
-- name: US_OpenAI10
-  network: ws
-  port: 80
-  server: 172.66.141.21
-  servername: a1.ghormehsabzi.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: e6236ebc-7334-4bed-977f-0c20bcdfcc00
-  ws-opts:
-    headers:
-      Host: a1.ghormehsabzi.dpdns.org
-    path: /?ed=2560
-- name: US_OpenAI11
-  network: ws
-  port: 80
-  server: 162.159.14.42
-  servername: spx.lindak.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: db9d419e-3094-4942-9313-d39afd3dd163
-  ws-opts:
-    headers:
-      Host: spx.lindak.dpdns.org
-    path: /?ed=2560
-- name: US_OpenAI12
-  network: ws
-  port: 80
-  server: 172.66.212.68
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 148709e4-402b-48dd-8892-ed39b55ea45c
-  ws-opts:
-    headers:
-      Host: entezar.loseyourself.dpdns.org
-    path: /?ed=2570
-- name: US_OpenAI13
-  network: ws
-  port: 80
-  server: 172.67.12.164
-  servername: a1.ghormehsabzi.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: e6236ebc-7334-4bed-977f-0c20bcdfcc00
-  ws-opts:
-    headers:
-      Host: a1.ghormehsabzi.dpdns.org
-    path: /?ed=2560
-- name: US_OpenAI14
-  network: ws
-  port: 80
-  server: 104.24.135.83
-  servername: delam.ahaysiahzangi.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: f78ce1bb-0fa6-4ef4-b4c9-b91014a7055d
-  ws-opts:
-    headers:
-      Host: delam.ahaysiahzangi.dpdns.org
-    path: /?ed=2560
-- name: US_OpenAI15
-  network: ws
-  port: 80
-  server: 104.16.100.188
-  servername: entezar.loseyourself.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 148709e4-402b-48dd-8892-ed39b55ea45c
-  ws-opts:
-    headers:
-      Host: entezar.loseyourself.dpdns.org
-    path: /?ed=2560
-- name: US_OpenAI16
-  network: ws
-  port: 80
-  server: 172.67.194.241
-  servername: delam.ahaysiahzangi.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: f78ce1bb-0fa6-4ef4-b4c9-b91014a7055d
-  ws-opts:
-    headers:
-      Host: delam.ahaysiahzangi.dpdns.org
-    path: /?ed=2560
-- name: US_OpenAI17
-  network: ws
-  port: 8880
-  server: 91.193.58.236
-  skip-cert-verify: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /
-- name: US_OpenAI18
-  network: ws
-  port: 80
-  server: 104.24.157.37
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: c09d51b8-25c5-4eaf-98bc-ef40c807de84
-  ws-opts:
-    headers:
-      Host: dawn-mountain-d79f-ppal03.doniji1519.workers.dev
-    path: /?ed=2560
-- name: US_OpenAI19
-  network: ws
-  port: 80
-  server: 172.67.11.138
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
-  ws-opts:
-    headers:
-      Host: kssepa.sabzipolobamahi.dpdns.org
-    path: /?ed=2560
-- name: US_OpenAI2
-  network: ws
-  port: 80
-  server: 104.16.68.226
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: eaff2a70-d992-448a-adf4-524cb8f13137
-  ws-opts:
-    headers:
-      Host: restless-dust-d9c3.nazijoon1378s.workers.dev
-    path: /?ed=2560
-- name: US_OpenAI20
-  network: ws
-  port: 8880
-  server: 91.193.58.77
-  servername: sk.laoyoutiao.link
-  skip-cert-verify: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: sk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-- name: US_OpenAI21
-  network: ws
-  port: 80
-  server: 104.16.65.193
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: c09d51b8-25c5-4eaf-98bc-ef40c807de84
-  ws-opts:
-    headers:
-      Host: dawn-mountain-d79f-ppal03.doniji1519.workers.dev
-    path: /?ed=2560
-- name: US_OpenAI22
-  network: ws
-  port: 8880
-  server: 156.238.18.239
-  servername: yd.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: yd.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: US_OpenAI3
-  network: ws
-  port: 80
-  server: 172.67.207.181
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 5a4e040a-8de6-4222-bd6f-9f535b8772fd
-  ws-opts:
-    headers:
-      Host: calm-violet-0e47.pomofoc222.workers.dev
-    path: /lrJO6NEVRGHecfbo?ed=2560
-- name: US_OpenAI4
-  network: ws
-  port: 8880
-  server: 185.251.83.20
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /Telegram
-- name: US_OpenAI5
-  network: ws
-  port: 80
-  server: 172.67.38.63
-  servername: tannaz.juveitaly.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: dfdf1c0a-5e52-4746-88bd-19d4e4ac7853
-  ws-opts:
-    headers:
-      Host: tannaz.juveitaly.dpdns.org
-    path: /BaRAyeIran?ed=2560
-- name: US_OpenAI6
-  network: ws
-  port: 80
-  server: 172.67.157.20
-  servername: di.dibdibini.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 4179c595-08ca-45cd-b555-91b6f1faeadc
-  ws-opts:
-    headers:
-      Host: di.dibdibini.dpdns.org
-    path: /?ed=2560
-- name: US_OpenAI7
-  network: ws
-  port: 8880
-  server: 91.193.58.93
-  servername: sk.laoyoutiao.link
-  skip-cert-verify: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: sk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-- name: US_OpenAI8
-  network: ws
-  port: 80
-  server: 104.24.34.94
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
-  ws-opts:
-    headers:
-      Host: kssepa.sabzipolobamahi.dpdns.org
-    path: /?ed=2570
-- name: US_OpenAI9
-  network: ws
-  port: 80
-  server: 172.67.56.112
-  servername: entezar.loseyourself.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 148709e4-402b-48dd-8892-ed39b55ea45c
-  ws-opts:
-    headers:
-      Host: entezar.loseyourself.dpdns.org
-    path: /BaRAyeIran?ed=2560
-- name: ❓ 未知_1
-  network: ws
-  port: 80
-  server: 172.64.88.159
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 63d7714a-2ac5-46ac-93be-96cea00300f8
-  ws-opts:
-    headers:
-      Host: winter-unit-b41d-ppal03.daxesac157.workers.dev
-    path: /Telegram@V2ray_Alpha/?ed=2560
-- name: ❓ 未知_2
-  network: ws
-  port: 8880
-  server: 88.216.69.29
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /
-- name: ❓ 未知_3
-  network: ws
-  port: 80
-  server: 104.16.132.187
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 80d32ddd-c0ac-4eb6-8a2a-3b27b23f32b4
-  ws-opts:
-    headers:
-      Host: icy-cherry-b8af-ppal03.givay59005.workers.dev
-    path: /telegram@V2ray_Alpha/?ed=2560
-- name: ❓ 未知_4
-  network: ws
-  port: 8080
-  server: 104.18.9.215
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 99678074-122c-46db-97fc-80b604c20158
-  ws-opts:
-    headers:
-      Host: shuige2.ywfmu-qx.workers.dev
-    path: /?ed=2048
-- name: ❓ 未知_5
-  network: ws
-  port: 8880
-  server: 25.25.25.213
-  skip-cert-verify: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /
-- name: ❓ 未知_6
-  network: ws
-  port: 8880
-  server: 91.193.58.237
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: sk.laoyoutiao.link
-    path: /Telegram%F0%9F%87%A8%F0%9F%87%B3%20@MxlShare%20@WangCai2%20/
-- name: ❓ 未知_7
-  network: ws
-  port: 8880
-  server: 14.102.228.213
-  skip-cert-verify: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /
-- name: ❓ 未知_8
-  network: ws
-  port: 8880
-  server: 5.182.84.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-- flow: ''
-  name: 美国-1
-  network: ws
-  port: 8880
-  server: 172.64.147.0
+  server: 114.129.43.251
   servername: Telegram-channel-WangCai2
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: tw.laoyoutiao.link
-    path: Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 美国-10
-  network: ws
-  port: 443
-  server: 172.67.79.211
-  servername: re1.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
   ws-opts:
     headers:
-      host: re1.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 美国-11
-  network: ws
-  port: 80
-  server: 172.67.197.185
-  servername: spx.lindak.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: db9d419e-3094-4942-9313-d39afd3dd163
-  ws-opts:
-    headers:
-      Host: spx.lindak.dpdns.org
-    path: /?ed=2560
-- name: 美国-12
-  network: ws
-  port: 443
-  server: 104.18.93.7
-  servername: re1.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: re1.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 美国-13
-  network: ws
-  port: 443
-  server: icook.hk
-  servername: rd1.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: rd1.ylks0033.dpdns.org
-    path: /?ed=2560
-- flow: ''
-  name: 美国-14
-  network: ws
-  port: 8880
-  server: 172.64.147.13
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: tw.laoyoutiao.link
-    path: Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 美国-15
-  network: ws
-  port: 443
-  server: www.hugedomains.com
-  servername: rd1.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: rd1.ylks0033.dpdns.org
-    path: /?ed=2560
-- flow: ''
-  name: 美国-16
-  network: ws
-  port: 8880
-  server: 172.64.147.6
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: tw.laoyoutiao.link
-    path: Telegram🇨🇳 @WangCai2 /?ed=2560
-- flow: ''
-  name: 美国-2
-  network: ws
-  port: 8880
-  server: 172.64.147.2
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: tw.laoyoutiao.link
-    path: Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 美国-3
-  network: ws
-  port: 80
-  server: 172.67.136.116
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 148709e4-402b-48dd-8892-ed39b55ea45c
-  ws-opts:
-    headers:
-      Host: entezar.loseyourself.dpdns.org
-    path: /?ed=2570
-- flow: ''
-  name: 美国-4
-  network: ws
-  port: 8880
-  server: 172.64.147.7
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: tw.laoyoutiao.link
-    path: Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 美国-5
-  network: ws
-  port: 80
-  server: 172.67.14.59
-  servername: kssepa.sabzipolobamahi.dpdns.org
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
-  ws-opts:
-    headers:
-      Host: kssepa.sabzipolobamahi.dpdns.org
-    path: /?ed=2560
-- name: 美国-6
-  network: ws
-  port: 443
-  server: 162.159.153.42
-  servername: re1.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: re1.ylks0033.dpdns.org
-    path: /?ed=2560
-- flow: ''
-  name: 美国-7
-  network: ws
-  port: 8880
-  server: 172.64.147.21
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: tw.laoyoutiao.link
-    path: Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 美国-8
-  network: ws
-  port: 443
-  server: 162.159.153.209
-  servername: re1.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: re1.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 美国-9
-  network: ws
-  port: 80
-  server: 172.67.67.92
-  servername: delam.ahaysiahzangi.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: f78ce1bb-0fa6-4ef4-b4c9-b91014a7055d
-  ws-opts:
-    headers:
-      Host: delam.ahaysiahzangi.dpdns.org
-    path: /?ed=2560
-- name: 韩国-
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 140.238.158.238_OpenAI
   network: ws
   port: 11481
   server: 119.197.201.29
@@ -1395,7 +99,481 @@ proxies:
     headers:
       host: rd1.ylks0033.dpdns.org
     path: /?ed=2560
-- name: 🇯🇵 日本_
+- name: 72.32.4.100_OpenAI
+  network: ws
+  port: 80
+  server: 172.67.14.59
+  servername: kssepa.sabzipolobamahi.dpdns.org
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
+  ws-opts:
+    headers:
+      Host: kssepa.sabzipolobamahi.dpdns.org
+    path: /?ed=2560
+- name: AE_OpenAI1
+  network: ws
+  port: 80
+  server: 104.17.213.213
+  servername: varzesh3.varzesh.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 68b48eeb-5770-4eb3-9b77-deeb77a41ccf
+  ws-opts:
+    headers:
+      Host: varzesh3.varzesh.dpdns.org
+    path: /?ed=2560
+- name: AE_OpenAI2
+  network: ws
+  port: 80
+  server: 172.67.67.92
+  servername: delam.ahaysiahzangi.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: f78ce1bb-0fa6-4ef4-b4c9-b91014a7055d
+  ws-opts:
+    headers:
+      Host: delam.ahaysiahzangi.dpdns.org
+    path: /?ed=2560
+- name: AE_OpenAI3
+  network: ws
+  port: 80
+  server: 172.66.141.21
+  servername: a1.ghormehsabzi.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: e6236ebc-7334-4bed-977f-0c20bcdfcc00
+  ws-opts:
+    headers:
+      Host: a1.ghormehsabzi.dpdns.org
+    path: /?ed=2560
+- name: CA1
+  network: ws
+  port: 443
+  server: steamdb.info
+  servername: rd1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: rd1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: CA10
+  network: ws
+  port: 443
+  server: 135.84.76.143
+  servername: re1.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: CA11
+  network: ws
+  port: 443
+  server: 69.84.182.41
+  servername: rd1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: rd1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: CA12
+  network: ws
+  port: 443
+  server: 160.123.255.163
+  servername: rd1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: rd1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: CA13
+  network: ws
+  port: 443
+  server: 69.84.182.12
+  servername: re1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: CA2
+  network: ws
+  port: 443
+  server: www.digitalocean.com
+  servername: re1.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: CA3
+  network: ws
+  port: 443
+  server: 192.0.54.24
+  servername: rd1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: rd1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: CA4
+  network: ws
+  port: 443
+  server: craig.ns.cloudflare.com
+  servername: rd1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: rd1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: CA5
+  network: ws
+  port: 443
+  server: 160.79.104.6
+  servername: re1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: CA6
+  network: ws
+  port: 443
+  server: trevor.ns.cloudflare.com
+  servername: rd1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: rd1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: CA7
+  network: ws
+  port: 443
+  server: whatismyipaddress.com
+  servername: rd1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: rd1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: CA8
+  network: ws
+  port: 443
+  server: toy-people.com
+  servername: rd1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: rd1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: CA9
+  network: ws
+  port: 443
+  server: 162.159.133.85
+  servername: re1.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: CA_OpenAI1
+  network: ws
+  port: 443
+  server: braden.ns.cloudflare.com
+  servername: rd1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: rd1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: CA_OpenAI10
+  network: ws
+  port: 443
+  server: abdullah.ns.cloudflare.com
+  servername: re1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: CA_OpenAI11
+  network: ws
+  port: 443
+  server: uriah.ns.cloudflare.com
+  servername: re1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: CA_OpenAI2
+  network: ws
+  port: 443
+  server: moura.ns.cloudflare.com
+  servername: rd1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: rd1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: CA_OpenAI3
+  network: ws
+  port: 443
+  server: 104.16.249.174
+  servername: re1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: CA_OpenAI4
+  network: ws
+  port: 443
+  server: 104.18.147.201
+  servername: re1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: CA_OpenAI5
+  network: ws
+  port: 443
+  server: sullivan.ns.cloudflare.com
+  servername: re1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: CA_OpenAI6
+  network: ws
+  port: 443
+  server: 104.18.80.243
+  servername: re1.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: CA_OpenAI7
+  network: ws
+  port: 443
+  server: 172.67.79.211
+  servername: re1.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: CA_OpenAI8
+  network: ws
+  port: 443
+  server: 104.19.150.163
+  servername: re1.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: CA_OpenAI9
+  network: ws
+  port: 443
+  server: lewis.ns.cloudflare.com
+  servername: re1.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: DE_OpenAI1
+  network: ws
+  port: 443
+  server: 3.75.170.179
+  servername: vkk.wxgqlfx.cn
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dc696d0-2c4d-437e-9187-5a78584f0abb
+  ws-opts:
+    headers:
+      Host: vkk.wxgqlfx.cn
+    path: /TG@wxgqlfx?ed=2560
+- name: DE_OpenAI2
+  network: ws
+  port: 443
+  server: 185.246.155.198
+  servername: vkk.wxgqlfx.cn
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dc696d0-2c4d-437e-9187-5a78584f0abb
+  ws-opts:
+    headers:
+      Host: vkk.wxgqlfx.cn
+    path: /TG@wxgqlfx?ed=2560
+- name: DE_OpenAI3
+  network: ws
+  port: 443
+  server: 37.1.206.30
+  servername: vkk.wxgqlfx.cn
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dc696d0-2c4d-437e-9187-5a78584f0abb
+  ws-opts:
+    headers:
+      Host: vkk.wxgqlfx.cn
+    path: /
+- name: DE_OpenAI4
+  network: ws
+  port: 63000
+  server: 45.32.233.201
+  servername: vkk.wxgqlfx.cn
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dc696d0-2c4d-437e-9187-5a78584f0abb
+  ws-opts:
+    headers:
+      Host: vkk.wxgqlfx.cn
+    path: /TG@wxgqlfx?ed=2560
+- name: DE_OpenAI5
+  network: ws
+  port: 80
+  server: 104.16.150.12
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: dfdf1c0a-5e52-4746-88bd-19d4e4ac7853
+  ws-opts:
+    headers:
+      Host: tannaz.juveitaly.dpdns.org
+    path: /?ed=2560
+- name: DE_OpenAI6
+  network: ws
+  port: 80
+  server: 172.66.210.188
+  servername: a1.ghormehsabzi.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: e6236ebc-7334-4bed-977f-0c20bcdfcc00
+  ws-opts:
+    headers:
+      Host: a1.ghormehsabzi.dpdns.org
+    path: /?ed=2560
+- grpc-opts:
+    grpc-service-name: Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs
+  name: DE_OpenAI7
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: Ih0HZjPvGjLGORRBc7ivhazmBTlYILGMe9WHO17WNWc
+    short-id: 71a2
+  server: 185.235.241.208
+  servername: maps.google.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: fce886cf-9623-4ba0-9599-edba06c7877c
+- name: FR_OpenAI1
+  network: ws
+  port: 8080
+  server: 104.26.15.85
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 4ea841c1-0dc1-4563-9f47-deba8407cb4e
+  ws-opts:
+    headers:
+      Host: J9.oDOtZrHUoO.ZuLAIR.ORg.
+    path: /?ed=2048
+- name: FR_OpenAI2
+  network: ws
+  port: 8080
+  server: 172.67.73.163
+  servername: 0q.rOk8rzMpV3.ZULair.Org.
+  tls: false
+  type: vless
+  uuid: b6efaf7e-6099-457d-b4a2-b01dde469533
+  ws-opts:
+    headers:
+      Host: 0q.rOk8rzMpV3.ZULair.Org.
+    path: /?ed=2048
+- name: JP_OpenAI1
   network: ws
   port: 2083
   server: 154.218.15.250
@@ -1408,11 +586,2498 @@ proxies:
   ws-opts:
     headers:
       Host: edmp.aimercc.filegear-sg.me
+    path: /?ed=2560
+- name: JP_OpenAI10
+  network: ws
+  port: 443
+  server: damien.ns.cloudflare.com
+  servername: edmp.aimercc.filegear-sg.me
+  tls: true
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edmp.aimercc.filegear-sg.me
+    path: /?ed=2560
+- name: JP_OpenAI11
+  network: ws
+  port: 443
+  server: duke.ns.cloudflare.com
+  servername: edmp.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edmp.aimercc.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸 美国_
+- name: JP_OpenAI12
+  network: ws
+  port: 443
+  server: 18.183.158.211
+  servername: edmp.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edmp.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: JP_OpenAI2
+  network: ws
+  port: 2096
+  server: 27.50.49.61
+  servername: edmp.aimercc.filegear-sg.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edmp.aimercc.filegear-sg.me
+    path: /?ed=2560
+- name: JP_OpenAI3
+  network: ws
+  port: 8443
+  server: WWw.Speedtest.net
+  servername: jjaNGESN.SBS
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: jjangESN.sbs
+    path: /
+- name: JP_OpenAI4
+  network: ws
+  port: 443
+  server: 172.64.33.110
+  servername: edmp.aimercc.filegear-sg.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edmp.aimercc.filegear-sg.me
+    path: /?ed=2560
+- name: JP_OpenAI5
+  network: ws
+  port: 8443
+  server: www.speedtesT.NET
+  servername: jJANGESN.SBS
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: JJANGESN.sbs
+    path: /
+- name: JP_OpenAI6
+  network: ws
+  port: 8443
+  server: www.SpEEDTEST.NET
+  servername: JJANGESN.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: JJANGesn.sbs
+    path: /
+- name: JP_OpenAI7
+  network: ws
+  port: 443
+  server: theo.ns.cloudflare.com
+  servername: edmp.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edmp.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: JP_OpenAI8
+  network: ws
+  port: 443
+  server: 27.50.49.207
+  servername: edmp.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edmp.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: JP_OpenAI9
+  network: ws
+  port: 443
+  server: lynn.ns.cloudflare.com
+  servername: edmp.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edmp.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: KR1
+  network: ws
+  port: 443
+  server: benedict.ns.cloudflare.com
+  servername: rd1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: rd1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: KR10
+  network: ws
+  port: 443
+  server: 160.79.104.117
+  servername: re1.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: KR11
+  network: ws
+  port: 443
+  server: 162.159.153.42
+  servername: re1.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: KR12
+  network: ws
+  port: 443
+  server: bowen.ns.cloudflare.com
+  servername: rd1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: rd1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: KR2
+  network: ws
+  port: 443
+  server: 160.79.105.219
+  servername: rd1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: rd1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: KR3
+  network: ws
+  port: 443
+  server: 185.16.110.200
+  servername: re1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: KR4
+  network: ws
+  port: 443
+  server: www.pcmag.com
+  servername: re1.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: KR5
+  network: ws
+  port: 443
+  server: iplocation.io
+  servername: rd1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: rd1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: KR6
+  network: ws
+  port: 443
+  server: 104.19.145.14
+  servername: rd1.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: rd1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: KR7
+  network: ws
+  port: 443
+  server: 162.159.153.209
+  servername: re1.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: KR8
+  network: ws
+  port: 443
+  server: www.hugedomains.com
+  servername: rd1.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: rd1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: KR9
+  network: ws
+  port: 443
+  server: 104.18.93.7
+  servername: re1.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
+- cipher: aes-256-cfb
+  name: KR_OpenAI1
+  password: qwerREWQ@@
+  port: 11389
+  server: p231.panda004.net
+  type: ss
+- name: KR_OpenAI10
+  network: ws
+  port: 443
+  server: cris.ns.cloudflare.com
+  servername: re1.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: KR_OpenAI11
+  network: ws
+  port: 443
+  server: nikon.ns.cloudflare.com
+  servername: re1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
+- cipher: aes-256-cfb
+  name: KR_OpenAI12
+  password: qwerREWQ@@
+  port: 15098
+  server: 125.141.31.72
+  type: ss
+- name: KR_OpenAI2
+  network: ws
+  port: 443
+  server: icook.tw
+  servername: rd1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: rd1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: KR_OpenAI3
+  network: ws
+  port: 443
+  server: 104.19.150.28
+  servername: rd1.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: rd1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: KR_OpenAI4
+  network: ws
+  port: 443
+  server: ashton.ns.cloudflare.com
+  servername: re1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: KR_OpenAI5
+  network: ws
+  port: 443
+  server: otto.ns.cloudflare.com
+  servername: re1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: KR_OpenAI6
+  network: ws
+  port: 443
+  server: decker.ns.cloudflare.com
+  servername: rd1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: rd1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: KR_OpenAI7
+  network: ws
+  port: 443
+  server: dnschecker.org
+  servername: re1.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
+- cipher: aes-256-cfb
+  name: KR_OpenAI8
+  password: qwerREWQ@@
+  port: 4652
+  server: 218.237.185.230
+  type: ss
+- cipher: aes-256-cfb
+  name: KR_OpenAI9
+  password: qwerREWQ@@
+  port: 4857
+  server: 125.141.26.12
+  type: ss
+- name: NL_OpenAI1
   network: ws
   port: 80
-  server: 104.27.126.10
+  server: 172.67.11.138
+  servername: kssepa.sabzipolobamahi.dpdns.org
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
+  ws-opts:
+    headers:
+      Host: kssepa.sabzipolobamahi.dpdns.org
+    path: /?ed=2560
+- name: NL_OpenAI2
+  network: ws
+  port: 8080
+  server: 141.101.121.243
+  skip-cert-verify: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: 1750293123492.china.baidu.bilibili.china.aeko.cn
+    path: /?ed=2048
+- name: NL_OpenAI3
+  network: ws
+  port: 80
+  server: 172.67.38.63
+  servername: tannaz.juveitaly.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: dfdf1c0a-5e52-4746-88bd-19d4e4ac7853
+  ws-opts:
+    headers:
+      Host: tannaz.juveitaly.dpdns.org
+    path: /BaRAyeIran?ed=2560
+- cipher: aes-256-cfb
+  name: TW_OpenAI
+  password: qwerREWQ@@
+  port: 64759
+  server: 185.189.160.98
+  type: ss
+- name: US1
+  network: ws
+  port: 80
+  server: 104.21.113.169
+  servername: pari.parinazz.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 1f431db3-1918-4e7b-a855-c93485e11694
+  ws-opts:
+    headers:
+      Host: pari.parinazz.dpdns.org
+    path: /?ed=2560
+- name: US2
+  network: ws
+  port: 8880
+  server: 156.238.18.76
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: yd.laoyoutiao.link
+    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
+- name: US_OpenAI1
+  network: ws
+  port: 8880
+  server: 45.80.111.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI10
+  network: ws
+  port: 8880
+  server: 185.251.80.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI100
+  network: ws
+  port: 80
+  server: 104.16.104.151
+  servername: pari.parinazz.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1f431db3-1918-4e7b-a855-c93485e11694
+  ws-opts:
+    headers:
+      Host: pari.parinazz.dpdns.org
+    path: /?ed=2560
+- name: US_OpenAI101
+  network: ws
+  port: 8880
+  server: 130.250.137.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI102
+  network: ws
+  port: 8880
+  server: 159.112.235.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI103
+  network: ws
+  port: 8880
+  server: 141.193.27.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI104
+  network: ws
+  port: 8880
+  server: 141.101.114.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI105
+  network: ws
+  port: 8880
+  server: 161.145.150.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI106
+  network: ws
+  port: 8880
+  server: 141.101.115.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI107
+  network: ws
+  port: 8880
+  server: 66.81.247.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI108
+  network: ws
+  port: 8880
+  server: 154.206.12.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI109
+  network: ws
+  port: 8880
+  server: 45.159.216.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI11
+  network: ws
+  port: 8880
+  server: 185.251.81.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI110
+  network: ws
+  port: 8880
+  server: 104.129.166.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI111
+  network: ws
+  port: 8880
+  server: 192.0.54.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI112
+  network: ws
+  port: 8880
+  server: 108.162.194.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI113
+  network: ws
+  port: 8880
+  server: 135.84.74.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI114
+  network: ws
+  port: 8880
+  server: 199.34.228.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI115
+  network: ws
+  port: 8880
+  server: 45.194.53.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI116
+  network: ws
+  port: 8880
+  server: 108.162.195.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI117
+  network: ws
+  port: 8880
+  server: 195.13.44.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI118
+  network: ws
+  port: 8880
+  server: 173.245.59.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI119
+  network: ws
+  port: 8880
+  server: 170.114.45.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI12
+  network: ws
+  port: 8880
+  server: 185.238.228.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI120
+  network: ws
+  port: 8880
+  server: 69.84.182.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI121
+  network: ws
+  port: 8880
+  server: 170.114.46.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI122
+  network: ws
+  port: 8880
+  server: 156.225.72.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI123
+  network: ws
+  port: 8880
+  server: 66.235.200.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI124
+  network: ws
+  port: 8880
+  server: 104.254.140.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI125
+  network: ws
+  port: 8880
+  server: 167.68.42.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI126
+  network: ws
+  port: 8880
+  server: 216.205.52.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI127
+  network: ws
+  port: 8880
+  server: 195.13.55.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI128
+  network: ws
+  port: 8880
+  server: 167.68.4.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI129
+  network: ws
+  port: 8880
+  server: 108.162.193.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI13
+  network: ws
+  port: 8880
+  server: 185.16.110.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI130
+  network: ws
+  port: 80
+  server: 104.17.99.202
+  servername: lot.sosant.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 9d6315f7-f272-4806-97c8-5fdaafad391e
+  ws-opts:
+    headers:
+      Host: lot.sosant.dpdns.org
+    path: /?ed=2560
+- name: US_OpenAI131
+  network: ws
+  port: 80
+  server: 162.159.14.42
+  servername: spx.lindak.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: db9d419e-3094-4942-9313-d39afd3dd163
+  ws-opts:
+    headers:
+      Host: spx.lindak.dpdns.org
+    path: /?ed=2560
+- name: US_OpenAI132
+  network: ws
+  port: 80
+  server: 104.16.181.110
+  servername: pari.parinazz.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 1f431db3-1918-4e7b-a855-c93485e11694
+  ws-opts:
+    headers:
+      Host: pari.parinazz.dpdns.org
+    path: /?ed=2560
+- name: US_OpenAI133
+  network: ws
+  port: 80
+  server: 172.67.10.124
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: e6236ebc-7334-4bed-977f-0c20bcdfcc00
+  ws-opts:
+    headers:
+      Host: a1.ghormehsabzi.dpdns.org
+    path: /?ed=2580
+- name: US_OpenAI134
+  network: ws
+  port: 80
+  server: 172.67.136.116
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 148709e4-402b-48dd-8892-ed39b55ea45c
+  ws-opts:
+    headers:
+      Host: entezar.loseyourself.dpdns.org
+    path: /?ed=2570
+- name: US_OpenAI135
+  network: ws
+  port: 80
+  server: 172.67.194.241
+  servername: delam.ahaysiahzangi.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: f78ce1bb-0fa6-4ef4-b4c9-b91014a7055d
+  ws-opts:
+    headers:
+      Host: delam.ahaysiahzangi.dpdns.org
+    path: /?ed=2560
+- name: US_OpenAI136
+  network: ws
+  port: 8880
+  server: 156.238.18.106
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: yd.laoyoutiao.link
+    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
+- name: US_OpenAI14
+  network: ws
+  port: 8880
+  server: 141.11.202.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI15
+  network: ws
+  port: 8880
+  server: 141.11.203.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI16
+  network: ws
+  port: 8880
+  server: 109.176.239.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI17
+  network: ws
+  port: 8880
+  server: 80.93.202.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI18
+  network: ws
+  port: 8880
+  server: 94.247.142.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI19
+  network: ws
+  port: 8880
+  server: 194.36.55.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI2
+  network: ws
+  port: 8880
+  server: 5.182.34.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI20
+  network: ws
+  port: 8880
+  server: 154.218.15.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI21
+  network: ws
+  port: 8880
+  server: 154.211.8.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI22
+  network: ws
+  port: 8880
+  server: 62.72.166.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI23
+  network: ws
+  port: 8880
+  server: 103.116.7.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI24
+  network: ws
+  port: 8880
+  server: 31.43.179.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI25
+  network: ws
+  port: 8880
+  server: 194.76.18.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI26
+  network: ws
+  port: 8880
+  server: 194.59.5.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI27
+  network: ws
+  port: 8880
+  server: 185.176.26.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI28
+  network: ws
+  port: 8880
+  server: 89.116.161.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI29
+  network: ws
+  port: 8880
+  server: 89.117.112.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI3
+  network: ws
+  port: 8880
+  server: 140.99.233.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI30
+  network: ws
+  port: 8880
+  server: 45.81.58.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI31
+  network: ws
+  port: 8880
+  server: 88.216.69.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI32
+  network: ws
+  port: 8880
+  server: 45.153.7.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI33
+  network: ws
+  port: 8880
+  server: 89.116.250.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI34
+  network: ws
+  port: 8880
+  server: 89.116.180.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI35
+  network: ws
+  port: 8880
+  server: 86.38.214.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI36
+  network: ws
+  port: 8880
+  server: 188.42.88.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI37
+  network: ws
+  port: 8880
+  server: 188.42.89.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI38
+  network: ws
+  port: 8880
+  server: 193.227.99.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI39
+  network: ws
+  port: 8880
+  server: 45.205.0.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI4
+  network: ws
+  port: 8880
+  server: 185.135.9.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI40
+  network: ws
+  port: 8880
+  server: 188.164.248.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI41
+  network: ws
+  port: 8880
+  server: 160.153.138.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI42
+  network: ws
+  port: 8880
+  server: 45.131.4.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI43
+  network: ws
+  port: 8880
+  server: 5.10.244.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI44
+  network: ws
+  port: 8880
+  server: 5.10.247.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI45
+  network: ws
+  port: 8880
+  server: 5.10.245.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI46
+  network: ws
+  port: 8880
+  server: 45.149.12.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI47
+  network: ws
+  port: 8880
+  server: 160.153.137.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI48
+  network: ws
+  port: 8880
+  server: 194.152.44.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI49
+  network: ws
+  port: 8880
+  server: 185.18.184.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI5
+  network: ws
+  port: 8880
+  server: 188.244.122.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI50
+  network: ws
+  port: 8880
+  server: 160.153.1.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI51
+  network: ws
+  port: 8880
+  server: 103.160.204.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI52
+  network: ws
+  port: 8880
+  server: 45.85.119.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI53
+  network: ws
+  port: 8880
+  server: 45.135.235.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI54
+  network: ws
+  port: 8880
+  server: 45.8.211.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI55
+  network: ws
+  port: 8880
+  server: 77.105.163.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI56
+  network: ws
+  port: 8880
+  server: 77.232.140.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI57
+  network: ws
+  port: 8880
+  server: 46.254.93.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI58
+  network: ws
+  port: 8880
+  server: 193.9.49.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI59
+  network: ws
+  port: 8880
+  server: 45.142.120.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI6
+  network: ws
+  port: 8880
+  server: 89.116.46.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI60
+  network: ws
+  port: 8880
+  server: 213.219.247.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI61
+  network: ws
+  port: 8880
+  server: 213.241.198.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI62
+  network: ws
+  port: 8880
+  server: 185.174.138.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI63
+  network: ws
+  port: 8880
+  server: 185.59.218.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI64
+  network: ws
+  port: 8880
+  server: 5.182.85.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI65
+  network: ws
+  port: 8880
+  server: 176.124.223.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI66
+  network: ws
+  port: 8880
+  server: 185.148.107.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI67
+  network: ws
+  port: 8880
+  server: 5.182.84.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI68
+  network: ws
+  port: 8880
+  server: 46.254.92.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI69
+  network: ws
+  port: 8880
+  server: 188.42.145.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI7
+  network: ws
+  port: 8880
+  server: 45.80.110.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI70
+  network: ws
+  port: 8880
+  server: 185.176.24.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI71
+  network: ws
+  port: 8880
+  server: 185.221.160.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI72
+  network: ws
+  port: 8880
+  server: 91.209.253.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI73
+  network: ws
+  port: 8880
+  server: 154.197.75.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI74
+  network: ws
+  port: 8880
+  server: 154.83.2.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI75
+  network: ws
+  port: 8880
+  server: 154.197.121.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI76
+  network: ws
+  port: 8880
+  server: 154.198.173.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI77
+  network: ws
+  port: 8880
+  server: 27.50.48.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI78
+  network: ws
+  port: 8880
+  server: 92.243.74.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI79
+  network: ws
+  port: 8880
+  server: 92.243.75.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI8
+  network: ws
+  port: 8880
+  server: 185.251.83.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI80
+  network: ws
+  port: 8880
+  server: 92.60.74.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI81
+  network: ws
+  port: 8880
+  server: 92.53.191.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI82
+  network: ws
+  port: 8880
+  server: 92.53.188.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI83
+  network: ws
+  port: 8880
+  server: 92.53.190.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI84
+  network: ws
+  port: 8880
+  server: 92.53.189.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI85
+  network: ws
+  port: 8880
+  server: 46.202.30.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI86
+  network: ws
+  port: 8880
+  server: 91.124.127.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI87
+  network: ws
+  port: 8880
+  server: 141.101.122.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI88
+  network: ws
+  port: 8880
+  server: 185.148.104.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI89
+  network: ws
+  port: 8880
+  server: 45.159.218.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI9
+  network: ws
+  port: 8880
+  server: 185.251.82.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI90
+  network: ws
+  port: 8880
+  server: 185.148.105.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI91
+  network: ws
+  port: 8880
+  server: 209.94.90.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI92
+  network: ws
+  port: 8880
+  server: 159.242.242.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI93
+  network: ws
+  port: 8880
+  server: 159.246.55.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI94
+  network: ws
+  port: 8880
+  server: 160.79.104.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI95
+  network: ws
+  port: 8880
+  server: 168.100.6.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI96
+  network: ws
+  port: 8880
+  server: 139.64.235.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI97
+  network: ws
+  port: 8880
+  server: 167.68.5.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: US_OpenAI98
+  network: ws
+  port: 80
+  server: 172.67.12.164
+  servername: a1.ghormehsabzi.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e6236ebc-7334-4bed-977f-0c20bcdfcc00
+  ws-opts:
+    headers:
+      Host: a1.ghormehsabzi.dpdns.org
+    path: /?ed=2560
+- name: US_OpenAI99
+  network: ws
+  port: 8880
+  server: 147.185.161.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: ❓ 未知_1
+  network: ws
+  port: 443
+  server: 104.17.110.70
+  servername: rd1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: rd1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: ❓ 未知_2
+  network: ws
+  port: 443
+  server: rustam.ns.cloudflare.com
+  servername: rd1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: rd1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: ❓ 未知_3
+  network: ws
+  port: 443
+  server: 192.0.54.134
+  servername: re1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: ❓ 未知_4
+  network: ws
+  port: 80
+  server: 172.66.132.44
+  servername: abcd.taraneh.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 5459f68e-d914-4b31-93a3-ecdf638b7a5b
+  ws-opts:
+    headers:
+      Host: abcd.taraneh.dpdns.org
+    path: /?ed=2560
+- flow: ''
+  name: 美国-1
+  network: ws
+  port: 8880
+  server: 172.64.147.10
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: tw.laoyoutiao.link
+    path: Telegram🇨🇳 @WangCai2 /?ed=2560
+- flow: ''
+  name: 美国-10
+  network: ws
+  port: 8880
+  server: 172.64.147.13
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: tw.laoyoutiao.link
+    path: Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 美国-11
+  network: ws
+  port: 80
+  server: 172.67.56.112
+  servername: entezar.loseyourself.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 148709e4-402b-48dd-8892-ed39b55ea45c
+  ws-opts:
+    headers:
+      Host: entezar.loseyourself.dpdns.org
+    path: /BaRAyeIran?ed=2560
+- name: 美国-12
+  network: ws
+  port: 80
+  server: 172.67.9.145
   servername: kssepa.sabzipolobamahi.dpdns.org
   skip-cert-verify: false
   tls: false
@@ -1422,20 +3087,175 @@ proxies:
     headers:
       Host: kssepa.sabzipolobamahi.dpdns.org
     path: /?ed=2560
-- name: 🇺🇸53 |  1.9MB/s|61%|Disney
+- name: 美国-13
   network: ws
-  port: 8880
-  server: 156.238.18.197
-  servername: yd.laoyoutiao.link
+  port: 80
+  server: 172.66.212.68
   skip-cert-verify: false
   tls: false
   type: vless
-  udp: true
+  uuid: 148709e4-402b-48dd-8892-ed39b55ea45c
+  ws-opts:
+    headers:
+      Host: entezar.loseyourself.dpdns.org
+    path: /?ed=2570
+- flow: ''
+  name: 美国-14
+  network: ws
+  port: 8880
+  server: 172.64.147.6
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
   uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   ws-opts:
     headers:
-      Host: yd.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+      Host: tw.laoyoutiao.link
+    path: Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 美国-2
+  network: ws
+  port: 80
+  server: 104.24.135.83
+  servername: delam.ahaysiahzangi.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: f78ce1bb-0fa6-4ef4-b4c9-b91014a7055d
+  ws-opts:
+    headers:
+      Host: delam.ahaysiahzangi.dpdns.org
+    path: /?ed=2560
+- name: 美国-3
+  network: ws
+  port: 443
+  server: 162.159.153.217
+  servername: re1.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
+- flow: ''
+  name: 美国-4
+  network: ws
+  port: 8880
+  server: 172.64.147.2
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: tw.laoyoutiao.link
+    path: Telegram🇨🇳 @WangCai2 /?ed=2560
+- flow: ''
+  name: 美国-5
+  network: ws
+  port: 8880
+  server: 172.64.147.7
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: tw.laoyoutiao.link
+    path: Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 美国-6
+  network: ws
+  port: 80
+  server: 172.67.197.185
+  servername: spx.lindak.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: db9d419e-3094-4942-9313-d39afd3dd163
+  ws-opts:
+    headers:
+      Host: spx.lindak.dpdns.org
+    path: /?ed=2560
+- flow: ''
+  name: 美国-7
+  network: ws
+  port: 8880
+  server: 172.64.147.5
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: tw.laoyoutiao.link
+    path: Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 美国-8
+  network: ws
+  port: 80
+  server: 104.24.56.187
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: e6236ebc-7334-4bed-977f-0c20bcdfcc00
+  ws-opts:
+    headers:
+      Host: a1.ghormehsabzi.dpdns.org
+    path: /?ed=2560
+- name: 美国-9
+  network: ws
+  port: 80
+  server: 104.21.114.48
+  servername: pari.parinazz.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 1f431db3-1918-4e7b-a855-c93485e11694
+  ws-opts:
+    headers:
+      Host: pari.parinazz.dpdns.org
+    path: /?ed=2560
+- name: 🇨🇦 加拿大_
+  network: ws
+  port: 443
+  server: 45.67.215.58
+  servername: re1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇰🇷 韩国_1
+  network: ws
+  port: 443
+  server: 69.84.182.53
+  servername: re1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 🇰🇷 韩国_2
+  network: ws
+  port: 443
+  server: huxley.ns.cloudflare.com
+  servername: re1.ylks0033.dpdns.org
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: re1.ylks0033.dpdns.org
+    path: /?ed=2560
 proxy-groups:
 - name: PROXY
   type: select
@@ -1451,37 +3271,49 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
-  - 127.0.0.1_OpenAI
-  - 160.250.65.132_OpenAI
-  - 54.200.244.93_OpenAI
-  - CA_OpenAI
-  - DE
+  - 104.168.76.144_OpenAI
+  - 140.238.158.238_OpenAI
+  - 72.32.4.100_OpenAI
+  - AE_OpenAI1
+  - AE_OpenAI2
+  - AE_OpenAI3
+  - CA1
+  - CA10
+  - CA11
+  - CA12
+  - CA13
+  - CA2
+  - CA3
+  - CA4
+  - CA5
+  - CA6
+  - CA7
+  - CA8
+  - CA9
+  - CA_OpenAI1
+  - CA_OpenAI10
+  - CA_OpenAI11
+  - CA_OpenAI2
+  - CA_OpenAI3
+  - CA_OpenAI4
+  - CA_OpenAI5
+  - CA_OpenAI6
+  - CA_OpenAI7
+  - CA_OpenAI8
+  - CA_OpenAI9
   - DE_OpenAI1
   - DE_OpenAI2
   - DE_OpenAI3
   - DE_OpenAI4
   - DE_OpenAI5
   - DE_OpenAI6
-  - FI
-  - FI_OpenAI1
-  - FI_OpenAI2
-  - FR1
-  - FR2
-  - GB_OpenAI1
-  - GB_OpenAI2
-  - HK
-  - JP1
-  - JP2
-  - JP3
-  - JP4
+  - DE_OpenAI7
+  - FR_OpenAI1
+  - FR_OpenAI2
   - JP_OpenAI1
   - JP_OpenAI10
   - JP_OpenAI11
   - JP_OpenAI12
-  - JP_OpenAI13
-  - JP_OpenAI14
-  - JP_OpenAI15
-  - JP_OpenAI16
   - JP_OpenAI2
   - JP_OpenAI3
   - JP_OpenAI4
@@ -1491,31 +3323,77 @@ proxy-groups:
   - JP_OpenAI8
   - JP_OpenAI9
   - KR1
+  - KR10
+  - KR11
+  - KR12
   - KR2
-  - KR_OpenAI
+  - KR3
+  - KR4
+  - KR5
+  - KR6
+  - KR7
+  - KR8
+  - KR9
+  - KR_OpenAI1
+  - KR_OpenAI10
+  - KR_OpenAI11
+  - KR_OpenAI12
+  - KR_OpenAI2
+  - KR_OpenAI3
+  - KR_OpenAI4
+  - KR_OpenAI5
+  - KR_OpenAI6
+  - KR_OpenAI7
+  - KR_OpenAI8
+  - KR_OpenAI9
   - NL_OpenAI1
   - NL_OpenAI2
   - NL_OpenAI3
-  - NL_OpenAI4
-  - NL_OpenAI5
-  - NL_OpenAI6
-  - RU1
-  - RU2
-  - SG_OpenAI
+  - TW_OpenAI
   - US1
   - US2
-  - US3
-  - US4
-  - US5
-  - US6
-  - US7
-  - US8
-  - US9
   - US_OpenAI1
   - US_OpenAI10
+  - US_OpenAI100
+  - US_OpenAI101
+  - US_OpenAI102
+  - US_OpenAI103
+  - US_OpenAI104
+  - US_OpenAI105
+  - US_OpenAI106
+  - US_OpenAI107
+  - US_OpenAI108
+  - US_OpenAI109
   - US_OpenAI11
+  - US_OpenAI110
+  - US_OpenAI111
+  - US_OpenAI112
+  - US_OpenAI113
+  - US_OpenAI114
+  - US_OpenAI115
+  - US_OpenAI116
+  - US_OpenAI117
+  - US_OpenAI118
+  - US_OpenAI119
   - US_OpenAI12
+  - US_OpenAI120
+  - US_OpenAI121
+  - US_OpenAI122
+  - US_OpenAI123
+  - US_OpenAI124
+  - US_OpenAI125
+  - US_OpenAI126
+  - US_OpenAI127
+  - US_OpenAI128
+  - US_OpenAI129
   - US_OpenAI13
+  - US_OpenAI130
+  - US_OpenAI131
+  - US_OpenAI132
+  - US_OpenAI133
+  - US_OpenAI134
+  - US_OpenAI135
+  - US_OpenAI136
   - US_OpenAI14
   - US_OpenAI15
   - US_OpenAI16
@@ -1526,29 +3404,100 @@ proxy-groups:
   - US_OpenAI20
   - US_OpenAI21
   - US_OpenAI22
+  - US_OpenAI23
+  - US_OpenAI24
+  - US_OpenAI25
+  - US_OpenAI26
+  - US_OpenAI27
+  - US_OpenAI28
+  - US_OpenAI29
   - US_OpenAI3
+  - US_OpenAI30
+  - US_OpenAI31
+  - US_OpenAI32
+  - US_OpenAI33
+  - US_OpenAI34
+  - US_OpenAI35
+  - US_OpenAI36
+  - US_OpenAI37
+  - US_OpenAI38
+  - US_OpenAI39
   - US_OpenAI4
+  - US_OpenAI40
+  - US_OpenAI41
+  - US_OpenAI42
+  - US_OpenAI43
+  - US_OpenAI44
+  - US_OpenAI45
+  - US_OpenAI46
+  - US_OpenAI47
+  - US_OpenAI48
+  - US_OpenAI49
   - US_OpenAI5
+  - US_OpenAI50
+  - US_OpenAI51
+  - US_OpenAI52
+  - US_OpenAI53
+  - US_OpenAI54
+  - US_OpenAI55
+  - US_OpenAI56
+  - US_OpenAI57
+  - US_OpenAI58
+  - US_OpenAI59
   - US_OpenAI6
+  - US_OpenAI60
+  - US_OpenAI61
+  - US_OpenAI62
+  - US_OpenAI63
+  - US_OpenAI64
+  - US_OpenAI65
+  - US_OpenAI66
+  - US_OpenAI67
+  - US_OpenAI68
+  - US_OpenAI69
   - US_OpenAI7
+  - US_OpenAI70
+  - US_OpenAI71
+  - US_OpenAI72
+  - US_OpenAI73
+  - US_OpenAI74
+  - US_OpenAI75
+  - US_OpenAI76
+  - US_OpenAI77
+  - US_OpenAI78
+  - US_OpenAI79
   - US_OpenAI8
+  - US_OpenAI80
+  - US_OpenAI81
+  - US_OpenAI82
+  - US_OpenAI83
+  - US_OpenAI84
+  - US_OpenAI85
+  - US_OpenAI86
+  - US_OpenAI87
+  - US_OpenAI88
+  - US_OpenAI89
   - US_OpenAI9
+  - US_OpenAI90
+  - US_OpenAI91
+  - US_OpenAI92
+  - US_OpenAI93
+  - US_OpenAI94
+  - US_OpenAI95
+  - US_OpenAI96
+  - US_OpenAI97
+  - US_OpenAI98
+  - US_OpenAI99
   - ❓ 未知_1
   - ❓ 未知_2
   - ❓ 未知_3
   - ❓ 未知_4
-  - ❓ 未知_5
-  - ❓ 未知_6
-  - ❓ 未知_7
-  - ❓ 未知_8
   - 美国-1
   - 美国-10
   - 美国-11
   - 美国-12
   - 美国-13
   - 美国-14
-  - 美国-15
-  - 美国-16
   - 美国-2
   - 美国-3
   - 美国-4
@@ -1557,10 +3506,9 @@ proxy-groups:
   - 美国-7
   - 美国-8
   - 美国-9
-  - 韩国-
-  - 🇯🇵 日本_
-  - 🇺🇸 美国_
-  - 🇺🇸53 |  1.9MB/s|61%|Disney
+  - 🇨🇦 加拿大_
+  - 🇰🇷 韩国_1
+  - 🇰🇷 韩国_2
 - name: Fallback
   type: fallback
   url: http://www.google.com/generate_204
@@ -1577,7 +3525,7 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - HK
+  - DIRECT
   filter: (?i)港|HK|HongKong|hong kong
 - name: TW
   type: url-test
@@ -1585,7 +3533,7 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - DIRECT
+  - TW_OpenAI
   filter: 台湾|TW|Tw|Taiwan|新北|彰化|CHT|HINET
 - name: JP
   type: url-test
@@ -1593,18 +3541,10 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - JP1
-  - JP2
-  - JP3
-  - JP4
   - JP_OpenAI1
   - JP_OpenAI10
   - JP_OpenAI11
   - JP_OpenAI12
-  - JP_OpenAI13
-  - JP_OpenAI14
-  - JP_OpenAI15
-  - JP_OpenAI16
   - JP_OpenAI2
   - JP_OpenAI3
   - JP_OpenAI4
@@ -1613,7 +3553,6 @@ proxy-groups:
   - JP_OpenAI7
   - JP_OpenAI8
   - JP_OpenAI9
-  - 🇯🇵 日本_
   filter: (?i)日|东京|大阪|JP|Japan|Tokyo|Osaka|Saitama
 - name: SG
   type: url-test
@@ -1621,7 +3560,7 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - SG_OpenAI
+  - DIRECT
   filter: (?i)新|狮城|SG|Singapore
 - name: US
   type: url-test
@@ -1631,18 +3570,48 @@ proxy-groups:
   proxies:
   - US1
   - US2
-  - US3
-  - US4
-  - US5
-  - US6
-  - US7
-  - US8
-  - US9
   - US_OpenAI1
   - US_OpenAI10
+  - US_OpenAI100
+  - US_OpenAI101
+  - US_OpenAI102
+  - US_OpenAI103
+  - US_OpenAI104
+  - US_OpenAI105
+  - US_OpenAI106
+  - US_OpenAI107
+  - US_OpenAI108
+  - US_OpenAI109
   - US_OpenAI11
+  - US_OpenAI110
+  - US_OpenAI111
+  - US_OpenAI112
+  - US_OpenAI113
+  - US_OpenAI114
+  - US_OpenAI115
+  - US_OpenAI116
+  - US_OpenAI117
+  - US_OpenAI118
+  - US_OpenAI119
   - US_OpenAI12
+  - US_OpenAI120
+  - US_OpenAI121
+  - US_OpenAI122
+  - US_OpenAI123
+  - US_OpenAI124
+  - US_OpenAI125
+  - US_OpenAI126
+  - US_OpenAI127
+  - US_OpenAI128
+  - US_OpenAI129
   - US_OpenAI13
+  - US_OpenAI130
+  - US_OpenAI131
+  - US_OpenAI132
+  - US_OpenAI133
+  - US_OpenAI134
+  - US_OpenAI135
+  - US_OpenAI136
   - US_OpenAI14
   - US_OpenAI15
   - US_OpenAI16
@@ -1653,21 +3622,96 @@ proxy-groups:
   - US_OpenAI20
   - US_OpenAI21
   - US_OpenAI22
+  - US_OpenAI23
+  - US_OpenAI24
+  - US_OpenAI25
+  - US_OpenAI26
+  - US_OpenAI27
+  - US_OpenAI28
+  - US_OpenAI29
   - US_OpenAI3
+  - US_OpenAI30
+  - US_OpenAI31
+  - US_OpenAI32
+  - US_OpenAI33
+  - US_OpenAI34
+  - US_OpenAI35
+  - US_OpenAI36
+  - US_OpenAI37
+  - US_OpenAI38
+  - US_OpenAI39
   - US_OpenAI4
+  - US_OpenAI40
+  - US_OpenAI41
+  - US_OpenAI42
+  - US_OpenAI43
+  - US_OpenAI44
+  - US_OpenAI45
+  - US_OpenAI46
+  - US_OpenAI47
+  - US_OpenAI48
+  - US_OpenAI49
   - US_OpenAI5
+  - US_OpenAI50
+  - US_OpenAI51
+  - US_OpenAI52
+  - US_OpenAI53
+  - US_OpenAI54
+  - US_OpenAI55
+  - US_OpenAI56
+  - US_OpenAI57
+  - US_OpenAI58
+  - US_OpenAI59
   - US_OpenAI6
+  - US_OpenAI60
+  - US_OpenAI61
+  - US_OpenAI62
+  - US_OpenAI63
+  - US_OpenAI64
+  - US_OpenAI65
+  - US_OpenAI66
+  - US_OpenAI67
+  - US_OpenAI68
+  - US_OpenAI69
   - US_OpenAI7
+  - US_OpenAI70
+  - US_OpenAI71
+  - US_OpenAI72
+  - US_OpenAI73
+  - US_OpenAI74
+  - US_OpenAI75
+  - US_OpenAI76
+  - US_OpenAI77
+  - US_OpenAI78
+  - US_OpenAI79
   - US_OpenAI8
+  - US_OpenAI80
+  - US_OpenAI81
+  - US_OpenAI82
+  - US_OpenAI83
+  - US_OpenAI84
+  - US_OpenAI85
+  - US_OpenAI86
+  - US_OpenAI87
+  - US_OpenAI88
+  - US_OpenAI89
   - US_OpenAI9
+  - US_OpenAI90
+  - US_OpenAI91
+  - US_OpenAI92
+  - US_OpenAI93
+  - US_OpenAI94
+  - US_OpenAI95
+  - US_OpenAI96
+  - US_OpenAI97
+  - US_OpenAI98
+  - US_OpenAI99
   - 美国-1
   - 美国-10
   - 美国-11
   - 美国-12
   - 美国-13
   - 美国-14
-  - 美国-15
-  - 美国-16
   - 美国-2
   - 美国-3
   - 美国-4
@@ -1676,7 +3720,6 @@ proxy-groups:
   - 美国-7
   - 美国-8
   - 美国-9
-  - 🇺🇸 美国_
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: OpenAI
   type: url-test
@@ -1684,28 +3727,36 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - 127.0.0.1_OpenAI
-  - 160.250.65.132_OpenAI
-  - 54.200.244.93_OpenAI
-  - CA_OpenAI
+  - 104.168.76.144_OpenAI
+  - 140.238.158.238_OpenAI
+  - 72.32.4.100_OpenAI
+  - AE_OpenAI1
+  - AE_OpenAI2
+  - AE_OpenAI3
+  - CA_OpenAI1
+  - CA_OpenAI10
+  - CA_OpenAI11
+  - CA_OpenAI2
+  - CA_OpenAI3
+  - CA_OpenAI4
+  - CA_OpenAI5
+  - CA_OpenAI6
+  - CA_OpenAI7
+  - CA_OpenAI8
+  - CA_OpenAI9
   - DE_OpenAI1
   - DE_OpenAI2
   - DE_OpenAI3
   - DE_OpenAI4
   - DE_OpenAI5
   - DE_OpenAI6
-  - FI_OpenAI1
-  - FI_OpenAI2
-  - GB_OpenAI1
-  - GB_OpenAI2
+  - DE_OpenAI7
+  - FR_OpenAI1
+  - FR_OpenAI2
   - JP_OpenAI1
   - JP_OpenAI10
   - JP_OpenAI11
   - JP_OpenAI12
-  - JP_OpenAI13
-  - JP_OpenAI14
-  - JP_OpenAI15
-  - JP_OpenAI16
   - JP_OpenAI2
   - JP_OpenAI3
   - JP_OpenAI4
@@ -1714,19 +3765,64 @@ proxy-groups:
   - JP_OpenAI7
   - JP_OpenAI8
   - JP_OpenAI9
-  - KR_OpenAI
+  - KR_OpenAI1
+  - KR_OpenAI10
+  - KR_OpenAI11
+  - KR_OpenAI12
+  - KR_OpenAI2
+  - KR_OpenAI3
+  - KR_OpenAI4
+  - KR_OpenAI5
+  - KR_OpenAI6
+  - KR_OpenAI7
+  - KR_OpenAI8
+  - KR_OpenAI9
   - NL_OpenAI1
   - NL_OpenAI2
   - NL_OpenAI3
-  - NL_OpenAI4
-  - NL_OpenAI5
-  - NL_OpenAI6
-  - SG_OpenAI
+  - TW_OpenAI
   - US_OpenAI1
   - US_OpenAI10
+  - US_OpenAI100
+  - US_OpenAI101
+  - US_OpenAI102
+  - US_OpenAI103
+  - US_OpenAI104
+  - US_OpenAI105
+  - US_OpenAI106
+  - US_OpenAI107
+  - US_OpenAI108
+  - US_OpenAI109
   - US_OpenAI11
+  - US_OpenAI110
+  - US_OpenAI111
+  - US_OpenAI112
+  - US_OpenAI113
+  - US_OpenAI114
+  - US_OpenAI115
+  - US_OpenAI116
+  - US_OpenAI117
+  - US_OpenAI118
+  - US_OpenAI119
   - US_OpenAI12
+  - US_OpenAI120
+  - US_OpenAI121
+  - US_OpenAI122
+  - US_OpenAI123
+  - US_OpenAI124
+  - US_OpenAI125
+  - US_OpenAI126
+  - US_OpenAI127
+  - US_OpenAI128
+  - US_OpenAI129
   - US_OpenAI13
+  - US_OpenAI130
+  - US_OpenAI131
+  - US_OpenAI132
+  - US_OpenAI133
+  - US_OpenAI134
+  - US_OpenAI135
+  - US_OpenAI136
   - US_OpenAI14
   - US_OpenAI15
   - US_OpenAI16
@@ -1737,13 +3833,90 @@ proxy-groups:
   - US_OpenAI20
   - US_OpenAI21
   - US_OpenAI22
+  - US_OpenAI23
+  - US_OpenAI24
+  - US_OpenAI25
+  - US_OpenAI26
+  - US_OpenAI27
+  - US_OpenAI28
+  - US_OpenAI29
   - US_OpenAI3
+  - US_OpenAI30
+  - US_OpenAI31
+  - US_OpenAI32
+  - US_OpenAI33
+  - US_OpenAI34
+  - US_OpenAI35
+  - US_OpenAI36
+  - US_OpenAI37
+  - US_OpenAI38
+  - US_OpenAI39
   - US_OpenAI4
+  - US_OpenAI40
+  - US_OpenAI41
+  - US_OpenAI42
+  - US_OpenAI43
+  - US_OpenAI44
+  - US_OpenAI45
+  - US_OpenAI46
+  - US_OpenAI47
+  - US_OpenAI48
+  - US_OpenAI49
   - US_OpenAI5
+  - US_OpenAI50
+  - US_OpenAI51
+  - US_OpenAI52
+  - US_OpenAI53
+  - US_OpenAI54
+  - US_OpenAI55
+  - US_OpenAI56
+  - US_OpenAI57
+  - US_OpenAI58
+  - US_OpenAI59
   - US_OpenAI6
+  - US_OpenAI60
+  - US_OpenAI61
+  - US_OpenAI62
+  - US_OpenAI63
+  - US_OpenAI64
+  - US_OpenAI65
+  - US_OpenAI66
+  - US_OpenAI67
+  - US_OpenAI68
+  - US_OpenAI69
   - US_OpenAI7
+  - US_OpenAI70
+  - US_OpenAI71
+  - US_OpenAI72
+  - US_OpenAI73
+  - US_OpenAI74
+  - US_OpenAI75
+  - US_OpenAI76
+  - US_OpenAI77
+  - US_OpenAI78
+  - US_OpenAI79
   - US_OpenAI8
+  - US_OpenAI80
+  - US_OpenAI81
+  - US_OpenAI82
+  - US_OpenAI83
+  - US_OpenAI84
+  - US_OpenAI85
+  - US_OpenAI86
+  - US_OpenAI87
+  - US_OpenAI88
+  - US_OpenAI89
   - US_OpenAI9
+  - US_OpenAI90
+  - US_OpenAI91
+  - US_OpenAI92
+  - US_OpenAI93
+  - US_OpenAI94
+  - US_OpenAI95
+  - US_OpenAI96
+  - US_OpenAI97
+  - US_OpenAI98
+  - US_OpenAI99
   filter: (?i)OpenAI
 - name: Claude
   type: url-test
