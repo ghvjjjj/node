@@ -71,32 +71,7 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
-- name: ❓ 未知_15
-  network: ws
-  port: 80
-  server: 172.66.132.44
-  servername: abcd.taraneh.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 5459f68e-d914-4b31-93a3-ecdf638b7a5b
-  ws-opts:
-    headers:
-      Host: abcd.taraneh.dpdns.org
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  name: ❓ 未知_2
-  password: qwerREWQ@@
-  port: 11389
-  server: p231.panda004.net
-  type: ss
-- cipher: aes-256-cfb
-  name: ❓ 未知_3
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 62.100.205.48
-  type: ss
-- name: ❓ 未知_6
+- name: ❓ 未知_13
   network: ws
   port: 8880
   server: 91.193.58.155
@@ -108,18 +83,7 @@ proxies:
     headers:
       Host: steep.skyfigure.top
     path: /Telegram🇨🇳 @WangCai2 /?ed
-- name: ❓ 未知_7
-  network: ws
-  port: 8080
-  server: 141.101.121.243
-  skip-cert-verify: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: 1750293123492.china.baidu.bilibili.china.aeko.cn
-    path: /?ed=2048
-- name: ❓ 未知_8
+- name: ❓ 未知_15
   network: ws
   port: 80
   server: 104.16.108.43
@@ -132,7 +96,13 @@ proxies:
     headers:
       Host: oops.shalamshorba.dpdns.org
     path: /?ed=2560
-- name: ❓ 未知_9
+- cipher: aes-256-cfb
+  name: ❓ 未知_3
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 62.100.205.48
+  type: ss
+- name: ❓ 未知_7
   network: ws
   port: 8080
   server: 141.101.121.55
@@ -143,6 +113,19 @@ proxies:
     headers:
       Host: 1750293123492.china.baidu.bilibili.china.aeko.cn
     path: /?ed=2048
+- name: ❓ 未知_8
+  network: ws
+  port: 80
+  server: 172.66.132.44
+  servername: abcd.taraneh.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 5459f68e-d914-4b31-93a3-ecdf638b7a5b
+  ws-opts:
+    headers:
+      Host: abcd.taraneh.dpdns.org
+    path: /?ed=2560
 - name: 🇦🇪 阿联酋_1
   network: ws
   port: 80
@@ -171,70 +154,6 @@ proxies:
 - name: 🇩🇪 德国_10
   network: ws
   port: 80
-  server: 104.24.56.187
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: e6236ebc-7334-4bed-977f-0c20bcdfcc00
-  ws-opts:
-    headers:
-      Host: a1.ghormehsabzi.dpdns.org
-    path: /?ed=2560
-- name: 🇩🇪 德国_11
-  network: ws
-  port: 80
-  server: 172.67.177.223
-  servername: lot.sosant.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 9d6315f7-f272-4806-97c8-5fdaafad391e
-  ws-opts:
-    headers:
-      Host: lot.sosant.dpdns.org
-    path: /?ed=2560
-- name: 🇩🇪 德国_12
-  network: ws
-  port: 80
-  server: 172.66.138.99
-  servername: varzesh3.varzesh.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 68b48eeb-5770-4eb3-9b77-deeb77a41ccf
-  ws-opts:
-    headers:
-      Host: varzesh3.varzesh.dpdns.org
-    path: /?ed=2560
-- name: 🇩🇪 德国_13
-  network: ws
-  port: 80
-  server: 104.24.135.83
-  servername: delam.ahaysiahzangi.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: f78ce1bb-0fa6-4ef4-b4c9-b91014a7055d
-  ws-opts:
-    headers:
-      Host: delam.ahaysiahzangi.dpdns.org
-    path: /?ed=2560
-- name: 🇩🇪 德国_3
-  network: ws
-  port: 80
-  server: 104.17.213.213
-  servername: varzesh3.varzesh.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 68b48eeb-5770-4eb3-9b77-deeb77a41ccf
-  ws-opts:
-    headers:
-      Host: varzesh3.varzesh.dpdns.org
-    path: /?ed=2560
-- name: 🇩🇪 德国_5
-  network: ws
-  port: 80
   server: 104.17.99.202
   servername: lot.sosant.dpdns.org
   skip-cert-verify: false
@@ -245,20 +164,7 @@ proxies:
     headers:
       Host: lot.sosant.dpdns.org
     path: /?ed=2560
-- name: 🇩🇪 德国_6
-  network: ws
-  port: 80
-  server: 172.67.78.196
-  servername: tannaz.juveitaly.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: dfdf1c0a-5e52-4746-88bd-19d4e4ac7853
-  ws-opts:
-    headers:
-      Host: tannaz.juveitaly.dpdns.org
-    path: /?ed=2560
-- name: 🇩🇪 德国_7
+- name: 🇩🇪 德国_11
   network: ws
   port: 80
   server: 104.24.31.150
@@ -271,21 +177,71 @@ proxies:
     headers:
       Host: lot.sosant.dpdns.org
     path: /?ed=2560
-- grpc-opts:
-    grpc-service-name: Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs
-  name: 🇩🇪 德国_8
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: Ih0HZjPvGjLGORRBc7ivhazmBTlYILGMe9WHO17WNWc
-    short-id: 71a2
-  server: 185.235.241.208
-  servername: maps.google.com
+- name: 🇩🇪 德国_12
+  network: ws
+  port: 80
+  server: 104.24.56.187
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
-  uuid: fce886cf-9623-4ba0-9599-edba06c7877c
-- name: 🇩🇪 德国_9
+  uuid: e6236ebc-7334-4bed-977f-0c20bcdfcc00
+  ws-opts:
+    headers:
+      Host: a1.ghormehsabzi.dpdns.org
+    path: /?ed=2560
+- name: 🇩🇪 德国_13
+  network: ws
+  port: 80
+  server: 172.66.138.99
+  servername: varzesh3.varzesh.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 68b48eeb-5770-4eb3-9b77-deeb77a41ccf
+  ws-opts:
+    headers:
+      Host: varzesh3.varzesh.dpdns.org
+    path: /?ed=2560
+- name: 🇩🇪 德国_2
+  network: ws
+  port: 80
+  server: 104.17.213.213
+  servername: varzesh3.varzesh.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 68b48eeb-5770-4eb3-9b77-deeb77a41ccf
+  ws-opts:
+    headers:
+      Host: varzesh3.varzesh.dpdns.org
+    path: /?ed=2560
+- name: 🇩🇪 德国_4
+  network: ws
+  port: 80
+  server: 104.24.135.83
+  servername: delam.ahaysiahzangi.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: f78ce1bb-0fa6-4ef4-b4c9-b91014a7055d
+  ws-opts:
+    headers:
+      Host: delam.ahaysiahzangi.dpdns.org
+    path: /?ed=2560
+- name: 🇩🇪 德国_5
+  network: ws
+  port: 80
+  server: 172.67.177.223
+  servername: lot.sosant.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 9d6315f7-f272-4806-97c8-5fdaafad391e
+  ws-opts:
+    headers:
+      Host: lot.sosant.dpdns.org
+    path: /?ed=2560
+- name: 🇩🇪 德国_6
   network: ws
   port: 80
   server: 172.66.177.129
@@ -298,23 +254,24 @@ proxies:
     headers:
       Host: tannaz.juveitaly.dpdns.org
     path: /?ed=2560
-- name: 🇫🇮 芬兰_1
-  network: ws
-  port: 80
-  server: 172.67.56.112
-  servername: entezar.loseyourself.dpdns.org
+- grpc-opts:
+    grpc-service-name: Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs
+  name: 🇩🇪 德国_7
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: Ih0HZjPvGjLGORRBc7ivhazmBTlYILGMe9WHO17WNWc
+    short-id: 71a2
+  server: 185.235.241.208
+  servername: maps.google.com
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
-  uuid: 148709e4-402b-48dd-8892-ed39b55ea45c
-  ws-opts:
-    headers:
-      Host: entezar.loseyourself.dpdns.org
-    path: /BaRAyeIran?ed=2560
-- name: 🇫🇮 芬兰_2
+  uuid: fce886cf-9623-4ba0-9599-edba06c7877c
+- name: 🇩🇪 德国_8
   network: ws
   port: 80
-  server: 172.67.193.209
+  server: 172.67.78.196
   servername: tannaz.juveitaly.dpdns.org
   skip-cert-verify: false
   tls: false
@@ -324,7 +281,7 @@ proxies:
     headers:
       Host: tannaz.juveitaly.dpdns.org
     path: /?ed=2560
-- name: 🇫🇮 芬兰_3
+- name: 🇫🇮 芬兰_1
   network: ws
   port: 80
   server: 104.24.34.94
@@ -336,7 +293,7 @@ proxies:
     headers:
       Host: kssepa.sabzipolobamahi.dpdns.org
     path: /?ed=2570
-- name: 🇫🇮 芬兰_4
+- name: 🇫🇮 芬兰_2
   network: ws
   port: 80
   server: 104.16.181.110
@@ -349,6 +306,32 @@ proxies:
     headers:
       Host: pari.parinazz.dpdns.org
     path: /?ed=2560
+- name: 🇫🇮 芬兰_3
+  network: ws
+  port: 80
+  server: 172.67.193.209
+  servername: tannaz.juveitaly.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: dfdf1c0a-5e52-4746-88bd-19d4e4ac7853
+  ws-opts:
+    headers:
+      Host: tannaz.juveitaly.dpdns.org
+    path: /?ed=2560
+- name: 🇫🇮 芬兰_4
+  network: ws
+  port: 80
+  server: 172.67.56.112
+  servername: entezar.loseyourself.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 148709e4-402b-48dd-8892-ed39b55ea45c
+  ws-opts:
+    headers:
+      Host: entezar.loseyourself.dpdns.org
+    path: /BaRAyeIran?ed=2560
 - client-fingerprint: chrome
   name: 🇫🇷 法国
   password: dongtaiwang.com
@@ -358,76 +341,6 @@ proxies:
   sni: apple.com
   type: hysteria2
 - name: 🇯🇵 日本_10
-  network: ws
-  port: 443
-  server: lynn.ns.cloudflare.com
-  servername: edmp.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edmp.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇯🇵 日本_5
-  network: ws
-  port: 2083
-  server: 154.218.15.250
-  servername: edmp.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edmp.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇯🇵 日本_6
-  network: ws
-  port: 443
-  server: duke.ns.cloudflare.com
-  servername: edmp.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edmp.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇯🇵 日本_7
-  network: ws
-  port: 443
-  server: 27.50.49.207
-  servername: edmp.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edmp.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇯🇵 日本_8
-  network: ws
-  port: 443
-  server: theo.ns.cloudflare.com
-  servername: edmp.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edmp.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇯🇵 日本_9
   network: ws
   port: 443
   server: 18.183.158.211
@@ -441,42 +354,107 @@ proxies:
     headers:
       Host: edmp.aimercc.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇯🇵 日本_5
+  network: ws
+  port: 443
+  server: lynn.ns.cloudflare.com
+  servername: edmp.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edmp.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇯🇵 日本_6
+  network: ws
+  port: 443
+  server: theo.ns.cloudflare.com
+  servername: edmp.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edmp.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇯🇵 日本_7
+  network: ws
+  port: 2083
+  server: 154.218.15.250
+  servername: edmp.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edmp.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇯🇵 日本_8
+  network: ws
+  port: 443
+  server: 27.50.49.207
+  servername: edmp.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edmp.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 🇯🇵 日本_9
+  network: ws
+  port: 443
+  server: duke.ns.cloudflare.com
+  servername: edmp.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edmp.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - cipher: aes-256-cfb
-  name: 🇰🇷 韩国_3
+  name: 🇰🇷 韩国_1
   password: qwerREWQ@@
   port: 4652
   server: 218.237.185.230
   type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷 韩国_4
-  password: qwerREWQ@@
-  port: 4857
-  server: 125.141.26.12
-  type: ss
 - name: 🇳🇱 荷兰_1
   network: ws
   port: 8080
-  server: 172.67.73.163
-  servername: 0q.rOk8rzMpV3.ZULair.Org.
+  server: 104.26.15.85
+  servername: ''
+  skip-cert-verify: true
   tls: false
   type: vless
-  uuid: b6efaf7e-6099-457d-b4a2-b01dde469533
+  uuid: 4ea841c1-0dc1-4563-9f47-deba8407cb4e
   ws-opts:
     headers:
-      Host: 0q.rOk8rzMpV3.ZULair.Org.
+      Host: J9.oDOtZrHUoO.ZuLAIR.ORg.
     path: /?ed=2048
 - name: 🇳🇱 荷兰_2
   network: ws
   port: 80
-  server: 172.67.9.145
-  servername: kssepa.sabzipolobamahi.dpdns.org
+  server: 104.16.100.188
+  servername: entezar.loseyourself.dpdns.org
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
+  uuid: 148709e4-402b-48dd-8892-ed39b55ea45c
   ws-opts:
     headers:
-      Host: kssepa.sabzipolobamahi.dpdns.org
+      Host: entezar.loseyourself.dpdns.org
     path: /?ed=2560
 - name: 🇳🇱 荷兰_3
   network: ws
@@ -493,6 +471,31 @@ proxies:
 - name: 🇳🇱 荷兰_4
   network: ws
   port: 80
+  server: 172.67.9.145
+  servername: kssepa.sabzipolobamahi.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
+  ws-opts:
+    headers:
+      Host: kssepa.sabzipolobamahi.dpdns.org
+    path: /?ed=2560
+- name: 🇳🇱 荷兰_5
+  network: ws
+  port: 8080
+  server: 172.67.73.163
+  servername: 0q.rOk8rzMpV3.ZULair.Org.
+  tls: false
+  type: vless
+  uuid: b6efaf7e-6099-457d-b4a2-b01dde469533
+  ws-opts:
+    headers:
+      Host: 0q.rOk8rzMpV3.ZULair.Org.
+    path: /?ed=2048
+- name: 🇳🇱 荷兰_6
+  network: ws
+  port: 80
   server: 172.66.212.68
   skip-cert-verify: false
   tls: false
@@ -502,20 +505,7 @@ proxies:
     headers:
       Host: entezar.loseyourself.dpdns.org
     path: /?ed=2570
-- name: 🇳🇱 荷兰_5
-  network: ws
-  port: 80
-  server: 104.16.100.188
-  servername: entezar.loseyourself.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 148709e4-402b-48dd-8892-ed39b55ea45c
-  ws-opts:
-    headers:
-      Host: entezar.loseyourself.dpdns.org
-    path: /?ed=2560
-- name: 🇳🇱 荷兰_6
+- name: 🇳🇱 荷兰_7
   network: ws
   port: 80
   server: 104.21.62.181
@@ -528,19 +518,6 @@ proxies:
     headers:
       Host: varzesh3.varzesh.dpdns.org
     path: /?ed=2560
-- name: 🇳🇱 荷兰_7
-  network: ws
-  port: 8080
-  server: 104.26.15.85
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: 4ea841c1-0dc1-4563-9f47-deba8407cb4e
-  ws-opts:
-    headers:
-      Host: J9.oDOtZrHUoO.ZuLAIR.ORg.
-    path: /?ed=2048
 - client-fingerprint: chrome
   name: 🇷🇺 俄罗斯_1
   password: dongtaiwang.com
@@ -564,133 +541,7 @@ proxies:
   skip-cert-verify: true
   sni: apple.com
   type: hysteria2
-- name: 🇺🇸 美国_104
-  network: ws
-  port: 80
-  server: 172.67.197.185
-  servername: spx.lindak.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: db9d419e-3094-4942-9313-d39afd3dd163
-  ws-opts:
-    headers:
-      Host: spx.lindak.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸 美国_105
-  network: ws
-  port: 80
-  server: 104.21.113.169
-  servername: pari.parinazz.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 1f431db3-1918-4e7b-a855-c93485e11694
-  ws-opts:
-    headers:
-      Host: pari.parinazz.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸 美国_106
-  network: ws
-  port: 80
-  server: 172.67.11.138
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
-  ws-opts:
-    headers:
-      Host: kssepa.sabzipolobamahi.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸 美国_107
-  network: ws
-  port: 80
-  server: 172.67.194.241
-  servername: delam.ahaysiahzangi.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: f78ce1bb-0fa6-4ef4-b4c9-b91014a7055d
-  ws-opts:
-    headers:
-      Host: delam.ahaysiahzangi.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸 美国_12
-  network: ws
-  port: 80
-  server: 104.16.103.250
-  servername: pari.parinazz.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 1f431db3-1918-4e7b-a855-c93485e11694
-  ws-opts:
-    headers:
-      Host: pari.parinazz.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸 美国_19
-  network: ws
-  port: 80
-  server: 104.16.104.151
-  servername: pari.parinazz.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 1f431db3-1918-4e7b-a855-c93485e11694
-  ws-opts:
-    headers:
-      Host: pari.parinazz.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸 美国_28
-  network: ws
-  port: 80
-  server: 172.67.67.92
-  servername: delam.ahaysiahzangi.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: f78ce1bb-0fa6-4ef4-b4c9-b91014a7055d
-  ws-opts:
-    headers:
-      Host: delam.ahaysiahzangi.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸 美国_37
-  network: ws
-  port: 80
-  server: 104.21.114.48
-  servername: pari.parinazz.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 1f431db3-1918-4e7b-a855-c93485e11694
-  ws-opts:
-    headers:
-      Host: pari.parinazz.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸 美国_42
-  network: ws
-  port: 80
-  server: 104.16.150.12
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: dfdf1c0a-5e52-4746-88bd-19d4e4ac7853
-  ws-opts:
-    headers:
-      Host: tannaz.juveitaly.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸 美国_45
-  network: ws
-  port: 80
-  server: 104.17.104.45
-  skip-cert-verify: false
-  type: vless
-  uuid: 9d6315f7-f272-4806-97c8-5fdaafad391e
-  ws-opts:
-    headers:
-      Host: lot.sosant.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸 美国_47
+- name: 🇺🇸 美国_10
   network: ws
   port: 80
   server: 162.159.14.42
@@ -703,85 +554,7 @@ proxies:
     headers:
       Host: spx.lindak.dpdns.org
     path: /?ed=2560
-- name: 🇺🇸 美国_48
-  network: ws
-  port: 80
-  server: 172.67.38.63
-  servername: tannaz.juveitaly.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: dfdf1c0a-5e52-4746-88bd-19d4e4ac7853
-  ws-opts:
-    headers:
-      Host: tannaz.juveitaly.dpdns.org
-    path: /BaRAyeIran?ed=2560
-- name: 🇺🇸 美国_52
-  network: ws
-  port: 80
-  server: 104.18.42.254
-  servername: varzesh3.varzesh.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 68b48eeb-5770-4eb3-9b77-deeb77a41ccf
-  ws-opts:
-    headers:
-      Host: varzesh3.varzesh.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸 美国_53
-  network: ws
-  port: 80
-  server: 104.16.101.143
-  servername: spx.lindak.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: db9d419e-3094-4942-9313-d39afd3dd163
-  ws-opts:
-    headers:
-      Host: spx.lindak.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸 美国_55
-  network: ws
-  port: 80
-  server: 172.67.12.164
-  servername: a1.ghormehsabzi.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: e6236ebc-7334-4bed-977f-0c20bcdfcc00
-  ws-opts:
-    headers:
-      Host: a1.ghormehsabzi.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸 美国_59
-  network: ws
-  port: 80
-  server: 172.67.14.59
-  servername: kssepa.sabzipolobamahi.dpdns.org
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
-  ws-opts:
-    headers:
-      Host: kssepa.sabzipolobamahi.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸 美国_62
-  network: ws
-  port: 443
-  server: 104.24.254.172
-  servername: F1.paRsa.fiLegEar-Sg.Me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 8df60790-c903-4661-b85d-64c0009378e5
-  ws-opts:
-    headers:
-      Host: f1.parsa.filegear-sg.me
-    path: /?ed=2560
-- name: 🇺🇸 美国_64
+- name: 🇺🇸 美国_103
   network: ws
   port: 80
   server: 172.66.141.21
@@ -794,10 +567,126 @@ proxies:
     headers:
       Host: a1.ghormehsabzi.dpdns.org
     path: /?ed=2560
-- name: 🇺🇸 美国_7
+- name: 🇺🇸 美国_12
   network: ws
   port: 80
-  server: 172.66.210.188
+  server: 104.16.101.143
+  servername: spx.lindak.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: db9d419e-3094-4942-9313-d39afd3dd163
+  ws-opts:
+    headers:
+      Host: spx.lindak.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸 美国_16
+  network: ws
+  port: 80
+  server: 104.16.103.250
+  servername: pari.parinazz.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 1f431db3-1918-4e7b-a855-c93485e11694
+  ws-opts:
+    headers:
+      Host: pari.parinazz.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸 美国_3
+  network: ws
+  port: 80
+  server: 104.21.114.48
+  servername: pari.parinazz.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 1f431db3-1918-4e7b-a855-c93485e11694
+  ws-opts:
+    headers:
+      Host: pari.parinazz.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸 美国_38
+  network: ws
+  port: 80
+  server: 172.67.197.185
+  servername: spx.lindak.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: db9d419e-3094-4942-9313-d39afd3dd163
+  ws-opts:
+    headers:
+      Host: spx.lindak.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸 美国_4
+  network: ws
+  port: 80
+  server: 172.67.194.241
+  servername: delam.ahaysiahzangi.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: f78ce1bb-0fa6-4ef4-b4c9-b91014a7055d
+  ws-opts:
+    headers:
+      Host: delam.ahaysiahzangi.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸 美国_43
+  network: ws
+  port: 80
+  server: 104.18.42.254
+  servername: varzesh3.varzesh.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 68b48eeb-5770-4eb3-9b77-deeb77a41ccf
+  ws-opts:
+    headers:
+      Host: varzesh3.varzesh.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸 美国_5
+  network: ws
+  port: 80
+  server: 172.67.67.92
+  servername: delam.ahaysiahzangi.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: f78ce1bb-0fa6-4ef4-b4c9-b91014a7055d
+  ws-opts:
+    headers:
+      Host: delam.ahaysiahzangi.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸 美国_60
+  network: ws
+  port: 80
+  server: 104.21.113.169
+  servername: pari.parinazz.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 1f431db3-1918-4e7b-a855-c93485e11694
+  ws-opts:
+    headers:
+      Host: pari.parinazz.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸 美国_67
+  network: ws
+  port: 80
+  server: 104.16.150.12
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: dfdf1c0a-5e52-4746-88bd-19d4e4ac7853
+  ws-opts:
+    headers:
+      Host: tannaz.juveitaly.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸 美国_70
+  network: ws
+  port: 80
+  server: 172.67.12.164
   servername: a1.ghormehsabzi.dpdns.org
   skip-cert-verify: false
   tls: false
@@ -806,6 +695,19 @@ proxies:
   ws-opts:
     headers:
       Host: a1.ghormehsabzi.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸 美国_74
+  network: ws
+  port: 80
+  server: 104.18.30.65
+  servername: lot.sosant.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 9d6315f7-f272-4806-97c8-5fdaafad391e
+  ws-opts:
+    headers:
+      Host: lot.sosant.dpdns.org
     path: /?ed=2560
 - name: 🇺🇸 美国_75
   network: ws
@@ -820,7 +722,46 @@ proxies:
     headers:
       Host: varzesh3.varzesh.dpdns.org
     path: /?ed=2560
-- name: 🇺🇸 美国_8
+- name: 🇺🇸 美国_76
+  network: ws
+  port: 80
+  server: 172.66.210.188
+  servername: a1.ghormehsabzi.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: e6236ebc-7334-4bed-977f-0c20bcdfcc00
+  ws-opts:
+    headers:
+      Host: a1.ghormehsabzi.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸 美国_82
+  network: ws
+  port: 443
+  server: 104.24.254.172
+  servername: F1.paRsa.fiLegEar-Sg.Me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 8df60790-c903-4661-b85d-64c0009378e5
+  ws-opts:
+    headers:
+      Host: f1.parsa.filegear-sg.me
+    path: /?ed=2560
+- name: 🇺🇸 美国_83
+  network: ws
+  port: 80
+  server: 172.67.14.59
+  servername: kssepa.sabzipolobamahi.dpdns.org
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
+  ws-opts:
+    headers:
+      Host: kssepa.sabzipolobamahi.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸 美国_84
   network: ws
   port: 80
   server: 172.67.136.116
@@ -835,15 +776,51 @@ proxies:
 - name: 🇺🇸 美国_87
   network: ws
   port: 80
-  server: 104.18.30.65
-  servername: lot.sosant.dpdns.org
+  server: 172.67.11.138
   skip-cert-verify: false
   tls: false
+  type: vless
+  uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
+  ws-opts:
+    headers:
+      Host: kssepa.sabzipolobamahi.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸 美国_88
+  network: ws
+  port: 80
+  server: 172.67.38.63
+  servername: tannaz.juveitaly.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: dfdf1c0a-5e52-4746-88bd-19d4e4ac7853
+  ws-opts:
+    headers:
+      Host: tannaz.juveitaly.dpdns.org
+    path: /BaRAyeIran?ed=2560
+- name: 🇺🇸 美国_9
+  network: ws
+  port: 80
+  server: 104.17.104.45
+  skip-cert-verify: false
   type: vless
   uuid: 9d6315f7-f272-4806-97c8-5fdaafad391e
   ws-opts:
     headers:
       Host: lot.sosant.dpdns.org
+    path: /?ed=2560
+- name: 🇺🇸 美国_98
+  network: ws
+  port: 80
+  server: 104.16.104.151
+  servername: pari.parinazz.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 1f431db3-1918-4e7b-a855-c93485e11694
+  ws-opts:
+    headers:
+      Host: pari.parinazz.dpdns.org
     path: /?ed=2560
 - name: 🇺🇸111 |  1.0MB/s|61%|Disney
   network: ws
@@ -924,6 +901,14 @@ proxies:
     headers:
       Host: yd.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- client-fingerprint: chrome
+  name: 🇺🇸69 |  4.3MB/s|100%|Netflix|O...
+  password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d
+  port: 3002
+  server: us.10101251.xyz
+  skip-cert-verify: false
+  sni: us.10101251.xyz
+  type: hysteria2
 - name: 🇺🇸9 |  4.6MB/s|Disney|Openai
   network: ws
   port: 8443
@@ -944,12 +929,6 @@ proxies:
   port: 38388
   server: 103.186.154.33
   type: ss
-- cipher: aes-256-cfb
-  name: 🇻🇳 越南_2
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.31
-  type: ss
 proxy-groups:
 - name: PROXY
   type: select
@@ -965,25 +944,23 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
+  - ❓ 未知_13
   - ❓ 未知_15
-  - ❓ 未知_2
   - ❓ 未知_3
-  - ❓ 未知_6
   - ❓ 未知_7
   - ❓ 未知_8
-  - ❓ 未知_9
   - 🇦🇪 阿联酋_1
   - 🇦🇪 阿联酋_2
   - 🇩🇪 德国_10
   - 🇩🇪 德国_11
   - 🇩🇪 德国_12
   - 🇩🇪 德国_13
-  - 🇩🇪 德国_3
+  - 🇩🇪 德国_2
+  - 🇩🇪 德国_4
   - 🇩🇪 德国_5
   - 🇩🇪 德国_6
   - 🇩🇪 德国_7
   - 🇩🇪 德国_8
-  - 🇩🇪 德国_9
   - 🇫🇮 芬兰_1
   - 🇫🇮 芬兰_2
   - 🇫🇮 芬兰_3
@@ -995,8 +972,7 @@ proxy-groups:
   - 🇯🇵 日本_7
   - 🇯🇵 日本_8
   - 🇯🇵 日本_9
-  - 🇰🇷 韩国_3
-  - 🇰🇷 韩国_4
+  - 🇰🇷 韩国_1
   - 🇳🇱 荷兰_1
   - 🇳🇱 荷兰_2
   - 🇳🇱 荷兰_3
@@ -1007,28 +983,28 @@ proxy-groups:
   - 🇷🇺 俄罗斯_1
   - 🇷🇺 俄罗斯_2
   - 🇷🇺 俄罗斯_3
-  - 🇺🇸 美国_104
-  - 🇺🇸 美国_105
-  - 🇺🇸 美国_106
-  - 🇺🇸 美国_107
+  - 🇺🇸 美国_10
+  - 🇺🇸 美国_103
   - 🇺🇸 美国_12
-  - 🇺🇸 美国_19
-  - 🇺🇸 美国_28
-  - 🇺🇸 美国_37
-  - 🇺🇸 美国_42
-  - 🇺🇸 美国_45
-  - 🇺🇸 美国_47
-  - 🇺🇸 美国_48
-  - 🇺🇸 美国_52
-  - 🇺🇸 美国_53
-  - 🇺🇸 美国_55
-  - 🇺🇸 美国_59
-  - 🇺🇸 美国_62
-  - 🇺🇸 美国_64
-  - 🇺🇸 美国_7
+  - 🇺🇸 美国_16
+  - 🇺🇸 美国_3
+  - 🇺🇸 美国_38
+  - 🇺🇸 美国_4
+  - 🇺🇸 美国_43
+  - 🇺🇸 美国_5
+  - 🇺🇸 美国_60
+  - 🇺🇸 美国_67
+  - 🇺🇸 美国_70
+  - 🇺🇸 美国_74
   - 🇺🇸 美国_75
-  - 🇺🇸 美国_8
+  - 🇺🇸 美国_76
+  - 🇺🇸 美国_82
+  - 🇺🇸 美国_83
+  - 🇺🇸 美国_84
   - 🇺🇸 美国_87
+  - 🇺🇸 美国_88
+  - 🇺🇸 美国_9
+  - 🇺🇸 美国_98
   - 🇺🇸111 |  1.0MB/s|61%|Disney
   - 🇺🇸122 |  1.4MB/s
   - 🇺🇸123 |  1.3MB/s|61%|Disney|Op...
@@ -1036,9 +1012,9 @@ proxy-groups:
   - 🇺🇸43 |  4.9MB/s|48%|Netflix|Di...
   - 🇺🇸53 |  1.9MB/s|61%|Disney
   - 🇺🇸61 |  1.0MB/s|Disney
+  - 🇺🇸69 |  4.3MB/s|100%|Netflix|O...
   - 🇺🇸9 |  4.6MB/s|Disney|Openai
   - 🇻🇳 越南_1
-  - 🇻🇳 越南_2
 - name: Fallback
   type: fallback
   url: http://www.google.com/generate_204
@@ -1092,28 +1068,28 @@ proxy-groups:
   interval: 600
   tolerance: 2000
   proxies:
-  - 🇺🇸 美国_104
-  - 🇺🇸 美国_105
-  - 🇺🇸 美国_106
-  - 🇺🇸 美国_107
+  - 🇺🇸 美国_10
+  - 🇺🇸 美国_103
   - 🇺🇸 美国_12
-  - 🇺🇸 美国_19
-  - 🇺🇸 美国_28
-  - 🇺🇸 美国_37
-  - 🇺🇸 美国_42
-  - 🇺🇸 美国_45
-  - 🇺🇸 美国_47
-  - 🇺🇸 美国_48
-  - 🇺🇸 美国_52
-  - 🇺🇸 美国_53
-  - 🇺🇸 美国_55
-  - 🇺🇸 美国_59
-  - 🇺🇸 美国_62
-  - 🇺🇸 美国_64
-  - 🇺🇸 美国_7
+  - 🇺🇸 美国_16
+  - 🇺🇸 美国_3
+  - 🇺🇸 美国_38
+  - 🇺🇸 美国_4
+  - 🇺🇸 美国_43
+  - 🇺🇸 美国_5
+  - 🇺🇸 美国_60
+  - 🇺🇸 美国_67
+  - 🇺🇸 美国_70
+  - 🇺🇸 美国_74
   - 🇺🇸 美国_75
-  - 🇺🇸 美国_8
+  - 🇺🇸 美国_76
+  - 🇺🇸 美国_82
+  - 🇺🇸 美国_83
+  - 🇺🇸 美国_84
   - 🇺🇸 美国_87
+  - 🇺🇸 美国_88
+  - 🇺🇸 美国_9
+  - 🇺🇸 美国_98
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: OpenAI
   type: url-test
