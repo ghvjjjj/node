@@ -6,8 +6,9 @@ fast_mode = true
 # 支持本地地址（绝对地址）/User/xxx/xx.yml
 # 支持单个订阅链接，ss://xxx
 subs = [
-    "https://raw.githubusercontent.com/peasoft/NoMoreWalls/refs/heads/master/snippets/nodes_US.meta.yml",
-    "https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Clash"
+    "https://raw.githubusercontent.com/peasoft/NoMoreWalls/refs/heads/master/snippets/nodes.meta.yml",
+    "https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Clash",
+    "https://raw.githubusercontent.com/qianlima8888/autoClashProxy/refs/heads/main/list.yaml"
 ]
 
 # 是否重命名节点，打开后会使用 geoip 等方式进行代理真实 IP 和地理地址查询
