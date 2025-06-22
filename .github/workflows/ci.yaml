@@ -6,7 +6,14 @@ on:
   pull_request:
     branches: [ "master" ]
   schedule:
-    - cron: "0 */8 * * *"
+    - cron: '0 22 * * *'
+    - cron: '0 2 * * *'
+    - cron: '0 6 * * *'
+    - cron: '0 9 * * *'
+    - cron: '0 10 * * *'
+    - cron: '0 11 * * *'
+    - cron: '0 12 * * *'
+    - cron: '0 14 * * *'
 
 env:
   CARGO_TERM_COLOR: always
@@ -35,6 +42,18 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+      - name: Cleanup old artifacts
+        run: |
+          rm -rf path/to/old/artifacts/*
+      - uses: Swatinem/rust-cache@v2
+      - name: Build
+        run: cargo build --verbose
+      - name: Run
+        run: cargo run
+      - name: Upload
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: update yaml"     - uses: actions/checkout@v4
       - uses: Swatinem/rust-cache@v2
       - name: Build
         run: cargo build --verbose
