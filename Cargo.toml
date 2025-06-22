@@ -1,0 +1,35 @@
+[package]
+name = "clash-butler"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = ["proxrs", "proxrs-wasm"]
+
+[profile.dev]
+opt-level = 1 # Example setting, you can customize as needed
+debug = true
+
+[profile.release]
+opt-level = "s"
+
+[dependencies]
+proxrs = { path = "proxrs" }
+anyhow = "1.0.93"
+axum = "0.7.5"
+tower-http = { version = "0.5.2", features = ["fs"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0.115"
+serde_yaml = "0.9"
+tokio = { version = "1.0", features = ["full"] }
+futures = "0.3"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+reqwest = { version = "0.12", features = ["json", "multipart", "stream"] }
+walkdir = "2.5.0"
+config = "0.14.1"
+scraper = "0.20.0"
+clap = { version = "4.5.20", features = ["derive"] }
+chrono = "0.4.37"
+webbrowser = "1.0.2"
+futures-util = "0.3.31"
