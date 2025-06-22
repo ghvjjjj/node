@@ -1,5 +1,5 @@
 # 是否开启快速模式，快速模式下仅测试连通性
-fast_mode = true
+fast_mode = false
 
 # 待测速的订阅节点
 # 支持网络地址 https://xxx
