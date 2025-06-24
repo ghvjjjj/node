@@ -42,12 +42,13 @@ proxy-groups:
   - name: SELECT
     type: select
     proxies: [ ]
+    filter: ".*"
   - name: FALLBACK
     type: fallback
     interval: 120
     url: "https://www.gstatic.com/generate_204"
     timeout: 900
-    proxies: [ PROXY ]
+    proxies: [ ]
     filter: "(?i)OpenAI"
 
 rules:
