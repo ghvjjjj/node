@@ -26,9 +26,9 @@ test_group_size = 50
 
 # 连通性测试
 [connect_test]
-url = "http://www.google.com/generate_204"
+url = "http://111.41.51.120:8180/pmshlj/default.html"
 expected = 204
-timeout = 3000
+timeout = 4000
 
 # 带宽测速配置
 [speed_test]
