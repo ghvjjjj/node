@@ -6,9 +6,7 @@ fast_mode = false
 # 支持本地地址（绝对地址）/User/xxx/xx.yml
 # 支持单个订阅链接，ss://xxx
 subs = [
-    "https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml",
-    "https://raw.githubusercontent.com/wangyingbo/v2rayse_sub/refs/heads/main/clashv2ray-hub_clashfree_sub/clashfree_clash.yaml",
-    "https://raw.githubusercontent.com/wangyingbo/v2rayse_sub/refs/heads/main/wzdnzd_aggregator_sub/Clash"
+    "https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml"
 ]
 
 # 是否重命名节点，打开后会使用 geoip 等方式进行代理真实 IP 和地理地址查询
