@@ -7,6 +7,7 @@ fast_mode = false
 # 支持单个订阅链接，ss://xxx
 subs = [
     "https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml"
+    "https://ghproxy.cn/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml"
 ]
 
 # 是否重命名节点，打开后会使用 geoip 等方式进行代理真实 IP 和地理地址查询
