@@ -35,45 +35,6 @@ proxies:
   type: vless
   udp: true
   uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-- name: 192.3.130.96_OpenAI
-  network: ws
-  port: 443
-  server: 104.21.76.21
-  servername: wWwde.00890604.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 13e26f64-2e0c-4461-92cd-d83294cc18f0
-  ws-opts:
-    headers:
-      Host: wWwde.00890604.xyz
-    path: /WfxcqrR5ycVpIit2OdWk0KwirdY
-- name: 217.142.184.5_OpenAI
-  network: ws
-  port: 19816
-  server: 45.144.167.46
-  servername: mixing-proper-sharon-literary.trycloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e46d518d-4a20-4f9a-873d-a86e9455321c
-  ws-opts:
-    headers:
-      Host: mixing-proper-sharon-literary.trycloudflare.com
-    path: /e46d518d-4a20-4f9a-873d-a86e9455321c-vless?ed=2048
-- name: 45.145.43.219_OpenAI
-  port: 7022
-  reality-opts:
-    public-key: vj5pvcr-2G1kK7hKp937WrwAPtVg4p94HpqeCAuauD4
-  server: 45.145.43.219
-  servername: refersion.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 651de6cb-df22-45cd-8842-438fdbef87fb
 - name: 47.79.37.171_OpenAI
   network: tcp
   port: 8443
@@ -85,18 +46,20 @@ proxies:
   tls: true
   type: vless
   uuid: e5c89c14-3de9-4716-cbc3-6eae3ebed0a2
-- flow: xtls-rprx-vision
-  name: 5.102.124.108_OpenAI
-  network: tcp
-  port: 25888
-  reality-opts:
-    public-key: Md6PoLS8ZgYxc-mOoMkLSRMksQzNTTPW0Psmo0y2c3E
-    short-id: 9c5b5b672053fc
-  server: 5.102.124.108
-  servername: www.samsung.com
+- alterId: 0
+  cipher: auto
+  name: 5.45.97.4_OpenAI
+  network: ws
+  port: 8443
+  server: 1751167941.tencentapp.cn
+  servername: 1751168331.speed.nlb.cccp.freefly.pp.ua
   tls: true
-  type: vless
-  uuid: f4ebd558-3ec1-42fa-a175-53af42067c6d
+  type: vmess
+  uuid: ffad2ef2-7b55-4f71-bc81-de5e0f769adc
+  ws-opts:
+    headers:
+      Host: 1751168331.speed.nlb.cccp.freefly.pp.ua
+    path: /
 - name: 59.153.217.57_OpenAI
   port: 34045
   reality-opts:
@@ -118,7 +81,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: AU_
+  name: AU_OpenAI1
   network: ws
   port: 2053
   server: 1751167941.tencentapp.cn
@@ -130,7 +93,21 @@ proxies:
     headers:
       Host: 1751168271.speed.qshsbq.cccp.freefly.pp.ua
     path: /
-- name: AU_OpenAI
+- alterId: 0
+  cipher: auto
+  name: AU_OpenAI2
+  network: ws
+  port: 2083
+  server: 1751185341.tencentapp.cn
+  servername: 1751185551.speed.fwvgau.cccp.freefly.pp.ua
+  tls: true
+  type: vmess
+  uuid: ffad2ef2-7b55-4f71-bc81-de5e0f769adc
+  ws-opts:
+    headers:
+      Host: 1751185551.speed.fwvgau.cccp.freefly.pp.ua
+    path: /
+- name: AU_OpenAI3
   password: 0e3248a4-2388-44b4-be7d-479d1a522661
   port: 50000
   server: 152.69.160.74
@@ -139,7 +116,21 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: BR_
+  name: BR_OpenAI1
+  network: ws
+  port: 2053
+  server: 1751171541.tencentapp.cn
+  servername: 1751171871.speed.ybhhkx.cccp.freefly.pp.ua
+  tls: true
+  type: vmess
+  uuid: ffad2ef2-7b55-4f71-bc81-de5e0f769adc
+  ws-opts:
+    headers:
+      Host: 1751171871.speed.ybhhkx.cccp.freefly.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: BR_OpenAI2
   network: ws
   port: 2096
   server: 1751178141.tencentapp.cn
@@ -153,7 +144,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: BR_OpenAI
+  name: BR_OpenAI3
   network: ws
   port: 2053
   server: 1751178141.tencentapp.cn
@@ -165,55 +156,45 @@ proxies:
     headers:
       Host: 1751178651.speed.ucjvqd.cccp.freefly.pp.ua
     path: /
-- alterId: 0
-  cipher: auto
-  name: DE_OpenAI1
-  network: ws
-  port: 8443
-  server: 1751167941.tencentapp.cn
-  servername: 1751168331.speed.nlb.cccp.freefly.pp.ua
-  tls: true
-  type: vmess
-  uuid: ffad2ef2-7b55-4f71-bc81-de5e0f769adc
-  ws-opts:
-    headers:
-      Host: 1751168331.speed.nlb.cccp.freefly.pp.ua
-    path: /
-- name: DE_OpenAI2
-  password: telegram-id-directvpn
-  port: 22223
-  server: 35.156.229.197
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: DE_OpenAI3
-  password: 29a6fc7f-5862-4db5-acae-7aec590cd1c5
-  port: 18550
-  server: ztcloudde.ztcloud.xyz
-  skip-cert-verify: true
-  sni: ztcloudde.ztcloud.xyz
-  type: hysteria2
-- name: DE_OpenAI4
-  password: 754e11c8-5974-44c2-8460-49e5146621d6
-  port: 18550
-  server: ztcloudde.ztcloud.xyz
-  skip-cert-verify: true
-  sni: ztcloudde.ztcloud.xyz
-  type: hysteria2
-- name: DE_OpenAI5
-  password: 5fc3e401-6049-4cad-8674-b1c0b81a0462
-  port: 18550
-  server: ztcloudde.ztcloud.xyz
-  skip-cert-verify: true
-  sni: ztcloudde.ztcloud.xyz
-  type: hysteria2
-- name: DE_OpenAI6
+- name: DE_
   password: 0e3248a4-2388-44b4-be7d-479d1a522661
   port: 50000
   server: 138.2.182.211
   skip-cert-verify: true
   sni: fastcdn.hoyoverse.com
   type: hysteria2
+- name: DE_OpenAI1
+  password: 29a6fc7f-5862-4db5-acae-7aec590cd1c5
+  port: 18550
+  server: ztcloudde.ztcloud.xyz
+  skip-cert-verify: true
+  sni: ztcloudde.ztcloud.xyz
+  type: hysteria2
+- name: DE_OpenAI2
+  password: 5fc3e401-6049-4cad-8674-b1c0b81a0462
+  port: 18550
+  server: ztcloudde.ztcloud.xyz
+  skip-cert-verify: true
+  sni: ztcloudde.ztcloud.xyz
+  type: hysteria2
+- name: DE_OpenAI3
+  password: 754e11c8-5974-44c2-8460-49e5146621d6
+  port: 18550
+  server: ztcloudde.ztcloud.xyz
+  skip-cert-verify: true
+  sni: ztcloudde.ztcloud.xyz
+  type: hysteria2
+- name: DE_OpenAI4
+  port: 7022
+  reality-opts:
+    public-key: vj5pvcr-2G1kK7hKp937WrwAPtVg4p94HpqeCAuauD4
+  server: 45.145.43.219
+  servername: refersion.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 651de6cb-df22-45cd-8842-438fdbef87fb
 - name: ES_OpenAI
   password: 0e3248a4-2388-44b4-be7d-479d1a522661
   port: 50000
@@ -249,6 +230,13 @@ proxies:
     headers:
       Host: 1751171811.speed.ukavsdgd.cccp.freefly.pp.ua
     path: /
+- name: HK
+  password: nfsn666
+  port: 8888
+  server: hk.nfsn666.gq
+  skip-cert-verify: false
+  sni: hk.nfsn666.gq
+  type: hysteria2
 - flow: xtls-rprx-vision
   name: HK_OpenAI1
   network: tcp
@@ -260,7 +248,7 @@ proxies:
   servername: www.samsung.com
   tls: true
   type: vless
-  uuid: 50eae1aa-2800-439e-8bd2-93642088f359
+  uuid: 51450ef3-b3e3-47ba-b6c1-5bef55c60df5
 - flow: xtls-rprx-vision
   name: HK_OpenAI2
   network: tcp
@@ -272,22 +260,20 @@ proxies:
   servername: www.samsung.com
   tls: true
   type: vless
-  uuid: 51450ef3-b3e3-47ba-b6c1-5bef55c60df5
-- name: RU_speednode_
-  network: ws
-  port: 443
-  server: 194.147.34.72
-  servername: 194.147.34.72
-  skip-cert-verify: true
+  uuid: 50eae1aa-2800-439e-8bd2-93642088f359
+- flow: xtls-rprx-vision
+  name: HK_OpenAI3
+  network: tcp
+  port: 25888
+  reality-opts:
+    public-key: Md6PoLS8ZgYxc-mOoMkLSRMksQzNTTPW0Psmo0y2c3E
+    short-id: 9c5b5b672053fc
+  server: 5.102.124.108
+  servername: www.samsung.com
   tls: true
   type: vless
-  udp: true
-  uuid: 37b8e7c0-5009-5836-bcb2-bfbda27a43cc
-  ws-opts:
-    headers:
-      Host: 194.147.34.72
-    path: /vless
-- name: SG_OpenAI
+  uuid: f4ebd558-3ec1-42fa-a175-53af42067c6d
+- name: SG_
   password: 0e3248a4-2388-44b4-be7d-479d1a522661
   port: 50000
   server: 140.245.48.123
@@ -298,15 +284,15 @@ proxies:
   cipher: auto
   name: US_OpenAI1
   network: ws
-  port: 2053
-  server: 1751185341.tencentapp.cn
-  servername: 1751185551.speed.smgrkf.cccp.freefly.pp.ua
+  port: 8443
+  server: 1751171541.tencentapp.cn
+  servername: 1751171871.speed.rvywqn.cccp.freefly.pp.ua
   tls: true
   type: vmess
   uuid: ffad2ef2-7b55-4f71-bc81-de5e0f769adc
   ws-opts:
     headers:
-      Host: 1751185551.speed.smgrkf.cccp.freefly.pp.ua
+      Host: 1751171871.speed.rvywqn.cccp.freefly.pp.ua
     path: /
 - flow: xtls-rprx-vision
   name: US_OpenAI2
@@ -321,13 +307,25 @@ proxies:
   type: vless
   uuid: 56719a52-d23c-4e7d-9c8f-1fe183dd6712
 - name: US_OpenAI3
+  port: 34045
+  reality-opts:
+    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+    short-id: e8ab71d0
+  server: 144.202.114.28
+  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+- name: US_OpenAI4
   password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
   port: 10086
   server: aus.pagate.top
   skip-cert-verify: false
   sni: aus.pagate.top
   type: hysteria2
-- name: US_OpenAI4
+- name: 🟡_🇺🇸_💻_github.com/Ruk1ng001_
   network: ws
   port: 443
   server: 104.21.44.248
