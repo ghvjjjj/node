@@ -8,7 +8,8 @@ fast_mode = false
 subs = [
     "https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml",
     "https://ghproxy.cn/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml",
-    "https://raw.githubusercontent.com/zhangkaiitugithub/passcro/refs/heads/main/meta.yaml"
+    "https://raw.githubusercontent.com/zhangkaiitugithub/passcro/refs/heads/main/meta.yaml",
+    "https://raw.githubusercontent.com/wangyingbo/v2rayse_sub/refs/heads/main/wzdnzd_aggregator_sub/Clash"
 ]
 
 # 是否重命名节点，打开后会使用 geoip 等方式进行代理真实 IP 和地理地址查询
@@ -26,9 +27,9 @@ test_group_size = 50
 
 # 连通性测试
 [connect_test]
-url = "http://111.41.51.120:8180/pmshlj/default.html"
+url = "http://connectivitycheck.platform.hicloud.com/generate_204"
 expected = 204
-timeout = 4000
+timeout = 400
 
 # 带宽测速配置
 [speed_test]
